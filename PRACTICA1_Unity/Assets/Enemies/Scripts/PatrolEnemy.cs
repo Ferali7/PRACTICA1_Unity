@@ -18,7 +18,7 @@ public class PatrolEnemy : MonoBehaviour
         if (destinationPoint == 0)
         {
             transform.position = Vector2.MoveTowards(transform.position, patrolPoint[0].position, moveSpeed * Time.deltaTime);
-            if (Vector2.Distance(transform.position, patrolPoint[0].position) < .2f) 
+            if (Vector2.Distance(transform.position, patrolPoint[0].position) < Mathf.Epsilon) 
             { 
                 destinationPoint = 1;
                 rotateEnemy();
@@ -27,7 +27,7 @@ public class PatrolEnemy : MonoBehaviour
         if (destinationPoint == 1)
         {
             transform.position = Vector2.MoveTowards(transform.position, patrolPoint[1].position, moveSpeed * Time.deltaTime);
-            if (Vector2.Distance(transform.position, patrolPoint[1].position) < .2f) 
+            if (Vector2.Distance(transform.position, patrolPoint[1].position) < Mathf.Epsilon) 
             { 
                 destinationPoint = 2;
                 rotateEnemy();
@@ -36,7 +36,7 @@ public class PatrolEnemy : MonoBehaviour
         if (destinationPoint == 2)
         {
             transform.position = Vector2.MoveTowards(transform.position, patrolPoint[2].position, moveSpeed * Time.deltaTime);
-            if (Vector2.Distance(transform.position, patrolPoint[2].position) < .2f) 
+            if (Vector2.Distance(transform.position, patrolPoint[2].position) < Mathf.Epsilon) 
             { 
                 destinationPoint = 3;
                 rotateEnemy();
@@ -45,7 +45,7 @@ public class PatrolEnemy : MonoBehaviour
         if (destinationPoint == 3)
         {
             transform.position = Vector2.MoveTowards(transform.position, patrolPoint[3].position, moveSpeed * Time.deltaTime);
-            if (Vector2.Distance(transform.position, patrolPoint[3].position) < .2f) 
+            if (Vector2.Distance(transform.position, patrolPoint[3].position) < Mathf.Epsilon) 
             { 
                 destinationPoint = 0;
                 rotateEnemy();
