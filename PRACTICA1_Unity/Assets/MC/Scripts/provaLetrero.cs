@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
-public class provaObject : MonoBehaviour
+public class provaLetrero : MonoBehaviour
 {
     public bool collapsed;
-    Rigidbody2D rb;
+    public string boardText = "Tonto el que haya pulsado E";
+    public GameObject boardUI;
+    public Text boardTextUI;
     // Start is called before the first frame update
     void Start()
     {
         collapsed = false;
-        rb = GetComponent<Rigidbody2D>();
+        boardUI.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,13 +22,8 @@ public class provaObject : MonoBehaviour
     {
         if (collapsed && Input.GetKeyDown(KeyCode.E))
         {
-            OnInteract();
+            ShowBoard(true);
         }
-    }
-    public void OnInteract()
-    {
-        print("Interacted with " + gameObject.name);
-        Destroy(gameObject);
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -36,5 +35,18 @@ public class provaObject : MonoBehaviour
     public void OnTriggerExit2D(Collider2D collision)
     {
         collapsed = false;
+    }
+    public void ShowBoard(bool show)
+    {
+        if (show == true)
+        {
+
+            boardTextUI.text = boardText;
+            boardUI.SetActive(true);
+        }
+        else
+        {
+            boardUI.SetActive(false);
+        }
     }
 }
