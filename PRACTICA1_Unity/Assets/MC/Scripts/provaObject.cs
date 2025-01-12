@@ -4,20 +4,33 @@ using UnityEngine;
 
 public class provaObject : MonoBehaviour
 {
+    public bool collapsed;
+    Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
-        
+        collapsed = false;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (collapsed && Input.GetKeyDown(KeyCode.E))
+        {
+            OnInteract();
+        }
     }
     public void OnInteract()
     {
         print("Interacted with " + gameObject.name);
         Destroy(gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            collapsed = true;
+        }
     }
 }
