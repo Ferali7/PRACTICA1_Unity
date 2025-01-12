@@ -16,6 +16,7 @@ public class MC_Movement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        print("start");
     }
 
     // Update is called once per frame
@@ -29,13 +30,11 @@ public class MC_Movement : MonoBehaviour
 
     public void movement()
     {
+        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed;
         if(Input.GetAxisRaw("Horizontal") > 0)
         {
             //sprite mirant dreta
             this.gameObject.GetComponent<SpriteRenderer>().sprite = right;
-            //moviment dreta
-            //input.x = (1);
-            //transform.position = gameObject.GetComponent.location;
             
         }
         if (Input.GetAxisRaw("Horizontal") < 0)
