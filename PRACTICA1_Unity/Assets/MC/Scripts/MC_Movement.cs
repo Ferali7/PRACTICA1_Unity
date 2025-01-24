@@ -11,11 +11,17 @@ public class MC_Movement : MonoBehaviour
     public Sprite down;
     private Vector2 movement;
     Rigidbody2D rb;
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         print("start");
+        animator.SetBool("walkingRight", true);
+        animator.SetBool("walkingLeft", false);
+        animator.SetBool("walkingTop", false);
+        animator.SetBool("walkingBottom", false);
     }
 
     // Update is called once per frame
@@ -35,8 +41,9 @@ public class MC_Movement : MonoBehaviour
             movement.x = 0;
         }*/
         rb.velocity = new Vector2(movement.x, movement.y) * speed;
-        isMoving();
+        //isMoving();
         //isMovingDiagonal();
+        movementStates();
     }
 
     public void isMoving()
@@ -77,6 +84,41 @@ public class MC_Movement : MonoBehaviour
         if (movement.y < 0)
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = down;
+        }
+    }
+    public void movementStates()
+    {
+        if (movement.x > 0)
+        {
+            animator.SetBool("walkingRight", true);
+            animator.SetBool("walkingLeft", false);
+            animator.SetBool("walkingTop", false);
+            animator.SetBool("walkingBottom", false);
+        }
+        if (movement.x < 0)
+        {
+            //transform.localScale(0.0f, 0.0f, 180f, Space.World);
+        }
+        if (movement.y > 0)
+        {
+            animator.SetBool("walkingRight", false);
+            animator.SetBool("walkingLeft", false);
+            animator.SetBool("walkingTop", true);
+            animator.SetBool("walkingBottom", false);
+        }
+        if (movement.y < 0)
+        {
+            animator.SetBool("walkingRight", false);
+            animator.SetBool("walkingLeft", false);
+            animator.SetBool("walkingTop", false);
+            animator.SetBool("walkingBottom", true);
+        }
+        if (movement.x == 0 && movement.y == 0)
+        {
+            animator.SetBool("walkingRight", true);
+            animator.SetBool("walkingLeft", false);
+            animator.SetBool("walkingTop", false);
+            animator.SetBool("walkingBottom", false);
         }
     }
 }
