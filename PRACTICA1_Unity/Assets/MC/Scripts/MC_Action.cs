@@ -17,9 +17,14 @@ public class MC_Action : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentInteractable != null && Input.GetKeyDown(KeyCode.E))
+        /*if(currentInteractable != null && Input.GetKeyDown(KeyCode.E))
         {
             print("Interacted with: " + currentInteractable.name);
+        }*/
+        if (currentInteractable != null && currentInteractable.tag != "Interactable")
+        {
+            currentInteractable = null;
+            showE = false;
         }
     }
     void OnTriggerEnter2D(Collider2D collision)
@@ -27,7 +32,7 @@ public class MC_Action : MonoBehaviour
         if (collision.CompareTag("Interactable"))
         {
             currentInteractable = collision.gameObject;
-            print("Interactable entered: " + currentInteractable.name);
+            //print("Interactable entered: " + currentInteractable.name);
             //mostrar la E Key a sobre de l'objecte i dirli que la seva posició és la posició de la camara + un offset o displace de (1,1)
             showE = true;
         }
@@ -39,7 +44,7 @@ public class MC_Action : MonoBehaviour
             if(currentInteractable == collision.gameObject)
             {
                 currentInteractable = null;
-                print("Interactable exited: " + collision.gameObject.name);
+                //print("Interactable exited: " + collision.gameObject.name);
                 showE = false;
             }
         }

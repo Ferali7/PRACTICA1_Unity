@@ -28,7 +28,7 @@ public class provaMovable : MonoBehaviour
     }
     public void OnInteract()
     {
-        print("Interacted with " + gameObject.name);
+        //print("Interacted with " + gameObject.name);
         //canviar el tipus de RB a dynamic, i poder empenyar-lo
         rb.bodyType = RigidbodyType2D.Dynamic;
     }

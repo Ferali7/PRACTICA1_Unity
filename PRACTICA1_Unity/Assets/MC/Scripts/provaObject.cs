@@ -23,7 +23,7 @@ public class provaObject : MonoBehaviour
     }
     public void OnInteract()
     {
-        print("Interacted with " + gameObject.name);
+        //print("Interacted with " + gameObject.name);
         Destroy(gameObject);
     }
     public void OnTriggerEnter2D(Collider2D collision)

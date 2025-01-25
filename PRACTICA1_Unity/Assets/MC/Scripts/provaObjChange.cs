@@ -28,10 +28,11 @@ public class provaObjChange : MonoBehaviour
     public void OnInteract()
     {
         //interacció amb un objecte que canvia com un cofre, es poden afegir més accions a part del canvi de sprite com afegir clau. NOMES ENTRA A FUNCIO SI ESTA FENT COLLISION AMB PLAYER
-        print("Interacted with " + gameObject.name);
+        //print("Interacted with " + gameObject.name);
         if (Input.GetKeyDown(KeyCode.E))
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = open;
+            gameObject.tag = "Interacted";
         }
     }
     public void OnTriggerEnter2D(Collider2D collision)
