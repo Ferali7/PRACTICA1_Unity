@@ -5,17 +5,16 @@ using UnityEngine;
 public class MC_Movement : MonoBehaviour
 {
     [SerializeField] public float speed = 5f;
-    //quan abans utilitzavem sprite estatic per fer proves
-    /*public Sprite right;
-    public Sprite left;
-    public Sprite up;
-    public Sprite down;*/
     private Vector2 movement;
     Rigidbody2D rb;
     Animator animator;
+    //utilitzarem aixo per ferli flip a la tecla E que es mostra, que s'invertiria al mirar a l'esquerra
+    public Transform canvasTransform;
     // Start is called before the first frame update
     void Start()
     {
+        //per trobar el canvas que cal invertir quan mirem a l'esquerra
+        canvasTransform = GameObject.Find("CanvasE").transform;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         //print("start");
@@ -101,6 +100,8 @@ public class MC_Movement : MonoBehaviour
             animator.SetBool("walkingBottom", false);
             animator.SetBool("notWalking", false);
             transform.localScale = new Vector2(1, 1);
+            //tornar el canvas Tecla E a la orientació normal
+            canvasTransform.localScale = new Vector2(1, 1);
         }
         if (movement.x < 0)
         {
@@ -109,6 +110,8 @@ public class MC_Movement : MonoBehaviour
             animator.SetBool("walkingBottom", false);
             animator.SetBool("notWalking", false);
             transform.localScale = new Vector2(-1, 1);
+            //canviar el canvas Tecla E d'orientació si el personatge mira cap a l'esquerra, ja que al ser fill també s'inverteix, però volem que el canvas es mantingui, per això l'invertim
+            canvasTransform.localScale = new Vector2(-1, 1);
         }
         if (movement.y > 0)
         {
