@@ -369,6 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  canvasTransform: {fileID: 0}
 --- !u!114 &7955120391408934993
 MonoBehaviour:
   m_ObjectHideFlags: 0
