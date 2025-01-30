@@ -8,6 +8,7 @@ public class provaObjChange : MonoBehaviour
     public bool collapsed;
     public Sprite closed;
     public Sprite open;
+    public Sprite stolen;
     Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -29,11 +30,17 @@ public class provaObjChange : MonoBehaviour
     {
         //interacció amb un objecte que canvia com un cofre, es poden afegir més accions a part del canvi de sprite com afegir clau. NOMES ENTRA A FUNCIO SI ESTA FENT COLLISION AMB PLAYER
         //print("Interacted with " + gameObject.name);
-        if (Input.GetKeyDown(KeyCode.E))
+        if (gameObject.GetComponent<SpriteRenderer>().sprite == open)
         {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = open;
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = stolen;
             gameObject.tag = "Interacted";
         }
+        if (gameObject.GetComponent<SpriteRenderer>().sprite == closed)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = open;
+            //gameObject.tag = "Interacted";
+        }
+        
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 801103912663122463}
   - component: {fileID: 9197526485335833233}
   m_Layer: 0
-  m_Name: provaObjectMovable
+  m_Name: bookshelf
   m_TagString: Movable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1074518829, guid: 5087890fd86e813499c72a09c40a4708, type: 3}
+  m_Sprite: {fileID: -506167203, guid: f0e7a4b172889894fbb6639ddee40dfd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

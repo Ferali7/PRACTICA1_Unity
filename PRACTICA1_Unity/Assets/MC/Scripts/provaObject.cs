@@ -5,11 +5,13 @@ using UnityEngine;
 public class provaObject : MonoBehaviour
 {
     public bool collapsed;
+    Animator animator;
     Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
         collapsed = false;
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
