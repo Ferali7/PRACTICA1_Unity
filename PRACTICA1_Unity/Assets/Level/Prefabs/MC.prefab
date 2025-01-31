@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 6164016346723821852}
   - component: {fileID: 1407593798490118750}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: CanvasTeclas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

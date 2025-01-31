@@ -14,12 +14,11 @@ public class MC_Movement : MonoBehaviour
     void Start()
     {
         //per trobar el canvas que cal invertir quan mirem a l'esquerra
-        canvasTransform = GameObject.Find("TeclaE").transform;
+        canvasTransform = GameObject.Find("CanvasTeclas").transform;
         rb = GetComponent<Rigidbody2D>();
-        print("---" + rb.name);
         animator = GetComponent<Animator>();
         //print("start");
-        //inicialització de les variables de la màquina d'estats com a falses excepte la de idle, tot i que no seria necessari al ser la animació per default a inici
+        //inicialització de les variables de la màquina d'estats com a falses excepte la de idle
         animator.SetBool("notWalking", true);
         animator.SetBool("walkingRight", false);
         animator.SetBool("walkingTop", false);
