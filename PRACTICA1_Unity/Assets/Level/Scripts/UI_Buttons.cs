@@ -24,4 +24,8 @@ public class UI_Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("SETTINGS");
     }
+    public static void BackToMainMenu()
+    {
+        SceneManager.LoadScene("MAIN MENU");
+    }
 }
