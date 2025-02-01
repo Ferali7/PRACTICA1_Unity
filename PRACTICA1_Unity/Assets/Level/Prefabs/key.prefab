@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2841281390393051956}
   - component: {fileID: 3767093470420799926}
   - component: {fileID: -4026753096046803869}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: key
   m_TagString: Interactable
   m_Icon: {fileID: 0}
@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03cfc154d16b82044b3103406acd25f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Permanent: {fileID: 0}
   collapsed: 0
 --- !u!95 &-4026753096046803869
 Animator:

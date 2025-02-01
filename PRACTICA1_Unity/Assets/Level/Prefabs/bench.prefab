@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7272462546299354199}
   - component: {fileID: 904563567364080071}
   - component: {fileID: 801103912663122463}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: bench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3844851959129187911}
   - component: {fileID: 5505337721754600560}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: partInferior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1096097139930160757}
   - component: {fileID: 3833147585255748818}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: partSuperior
   m_TagString: Untagged
   m_Icon: {fileID: 0}

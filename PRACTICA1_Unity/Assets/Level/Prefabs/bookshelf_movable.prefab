@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 904563567364080071}
   - component: {fileID: 801103912663122463}
   - component: {fileID: 9197526485335833233}
+  - component: {fileID: -7785071689578839689}
   m_Layer: 0
-  m_Name: bookshelf 1
+  m_Name: bookshelf_movable
   m_TagString: Movable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,6 +122,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collapsed: 0
+--- !u!114 &-7785071689578839689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2343038018785517213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: 0.50081825, y: -0.78016925, z: 0}
+  - {x: 0.5026765, y: -0.22104655, z: 0}
+  - {x: -0.5008383, y: -0.22214596, z: 0}
+  - {x: -0.49919128, y: -0.7756081, z: 0}
+  m_ShapePathHash: -3413647
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 47988
+  m_LocalBounds:
+    m_Center: {x: 0.0009191036, y: -0.5006079, z: 0}
+    m_Extent: {x: 0.5017574, y: 0.27956134, z: 0}
 --- !u!1 &2358302031138019690
 GameObject:
   m_ObjectHideFlags: 0

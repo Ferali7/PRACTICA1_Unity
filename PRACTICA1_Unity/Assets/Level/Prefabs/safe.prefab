@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4731176098496919546}
   - component: {fileID: 1400169670917845841}
   - component: {fileID: 3595158931790390817}
+  - component: {fileID: 249422456159377266}
   m_Layer: 0
   m_Name: safe
   m_TagString: Interactable
@@ -171,7 +172,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bd490be92905764383e68ededa35deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Permanent: {fileID: 0}
   collapsed: 0
   closed: {fileID: 72491647, guid: f0e7a4b172889894fbb6639ddee40dfd, type: 3}
   open: {fileID: -174489352, guid: f0e7a4b172889894fbb6639ddee40dfd, type: 3}
   stolen: {fileID: -1431616258, guid: f0e7a4b172889894fbb6639ddee40dfd, type: 3}
+--- !u!114 &249422456159377266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240005338221573644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.5, y: -0.6875, z: 0}
+  - {x: -0.5112008, y: 0.24320245, z: 0}
+  - {x: 0.5, y: 0.25066948, z: 0}
+  - {x: 0.5, y: -0.6875, z: 0}
+  m_ShapePathHash: 1001771963
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -120430
+  m_LocalBounds:
+    m_Center: {x: -0.005600393, y: -0.21841526, z: 0}
+    m_Extent: {x: 0.5056004, y: 0.46908474, z: 0}
