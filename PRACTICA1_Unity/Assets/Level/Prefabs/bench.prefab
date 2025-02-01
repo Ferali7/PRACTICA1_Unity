@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 7272462546299354199}
   - component: {fileID: 904563567364080071}
   - component: {fileID: 801103912663122463}
-  - component: {fileID: 9197526485335833233}
   m_Layer: 0
   m_Name: bench
-  m_TagString: Movable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +43,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2343038018785517213}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -108,19 +107,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.877069, y: 0.74956185}
   m_EdgeRadius: 0
---- !u!114 &9197526485335833233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2343038018785517213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee21ae07fa28cc94490c850dcd614400, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collapsed: 0
 --- !u!1 &2358302031138019690
 GameObject:
   m_ObjectHideFlags: 0
