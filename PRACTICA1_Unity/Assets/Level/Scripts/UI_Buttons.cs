@@ -20,4 +20,8 @@ public class UI_Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("LEVEL 1");
     }
+    public static void Settings()
+    {
+        SceneManager.LoadScene("SETTINGS");
+    }
 }
