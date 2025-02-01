@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MC_Action : MonoBehaviour
@@ -17,10 +18,11 @@ public class MC_Action : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if(currentInteractable != null && Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.N))
         {
-            print("Interacted with: " + currentInteractable.name);
-        }*/
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentSceneIndex + 1);
+        }
         if (currentInteractable != null && currentInteractable.tag != "Interactable")
         {
             currentInteractable = null;
