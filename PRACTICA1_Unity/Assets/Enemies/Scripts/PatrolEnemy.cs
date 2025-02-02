@@ -7,6 +7,7 @@ public class PatrolEnemy : MonoBehaviour
     public Transform[] patrolPoint;
     public float moveSpeed;
     public int destinationPoint;
+    private Vector2 movement;
     public void rotateEnemy()
     {
         transform.Rotate(0.0f, 0.0f, 90f, Space.World);
