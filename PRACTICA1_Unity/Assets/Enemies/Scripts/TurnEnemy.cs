@@ -8,15 +8,14 @@ public class TurnEnemy : MonoBehaviour
     {
         transform.localScale = new Vector2(-1, 1);
     }
-    IEnumerator delay2seconds()
+    IEnumerator delaySeconds()
     {
         yield return new WaitForSeconds(4.0f);
         rotateEnemy();
-        StartCoroutine(delay2seconds());
+        StartCoroutine(delaySeconds());
     }
-    // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(delay2seconds());
+        StartCoroutine(delaySeconds());
     }
 }

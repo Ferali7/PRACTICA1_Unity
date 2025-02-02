@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2169544079119945791}
   - component: {fileID: 3302280950830810334}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +533,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.9157697}
+  m_Size: {x: 1, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &1489551893741207202
 BoxCollider2D:
@@ -578,7 +578,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 0.41625288}
+  m_Size: {x: 1.2, y: 0.41625288}
   m_EdgeRadius: 0
 --- !u!95 &8707855242521054245
 Animator:
@@ -639,7 +639,7 @@ MonoBehaviour:
   - {x: -0.052793026, y: -0.3732547, z: 0}
   m_ShapePathHash: -839737513
   m_Mesh: {fileID: 0}
-  m_InstanceId: -99454
+  m_InstanceId: 122294
   m_LocalBounds:
     m_Center: {x: 0.00339818, y: -0.22887094, z: 0}
     m_Extent: {x: 0.5, y: 0.14438374, z: 0}
