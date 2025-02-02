@@ -28,7 +28,6 @@ public class MC_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         //input del jugador
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");

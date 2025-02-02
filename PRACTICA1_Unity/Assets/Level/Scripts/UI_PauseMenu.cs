@@ -12,6 +12,8 @@ public class UI_PauseMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        print("ENTRAS???");
+        Time.timeScale = 1.0f;
         animator = GetComponent<Animator>();
         PauseMenu.SetActive(false);
         isPaused = false;
@@ -23,7 +25,7 @@ public class UI_PauseMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             print("ESCAOPEEEEE");
-            if (isPaused)
+            if (isPaused == true)
             {
                 ResumeGame();
             }
@@ -36,7 +38,7 @@ public class UI_PauseMenu : MonoBehaviour
     public void PauseGame()
     {
         PauseMenu.SetActive(true);
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
         isPaused = true;
     }
     public void ResumeGame()
