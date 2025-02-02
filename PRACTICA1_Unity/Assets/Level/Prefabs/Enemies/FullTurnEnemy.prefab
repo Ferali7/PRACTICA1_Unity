@@ -72,8 +72,8 @@ BoxCollider2D:
   m_Offset: {x: -0.059705257, y: -0.059705257}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.53333336}
+    oldSize: {x: 0.875, y: 0.9375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -117,8 +117,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.53333336}
+    oldSize: {x: 0.875, y: 0.9375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -126,10 +126,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -19.705748, y: 1.3480741}
-      - {x: -0.054236293, y: 0.28229102}
-      - {x: -0.083033085, y: -0.21026996}
-      - {x: -19.716824, y: -1.3965789}
+    - - {x: -19.705748, y: 1.0070349}
+      - {x: -0.2247647, y: 0.15439472}
+      - {x: -0.22158742, y: -0.2422438}
+      - {x: -19.716824, y: -1.1834298}
   m_UseDelaunayMesh: 0
 --- !u!114 &5818878134020633223
 MonoBehaviour:
@@ -196,7 +196,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1681129813, guid: 6011c9268c0a5784c9362ac6680f7bca, type: 3}
+  m_Sprite: {fileID: 2940606022891931617, guid: eeb4fa01880362d4f801ce6321277368, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -273,8 +273,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -9.0588, y: 0.047550023, z: 0}
-    m_Extent: {x: 10.4491005, y: 1.97335, z: 0}
+    m_Center: {x: -9.112101, y: 0.047450066, z: 0}
+    m_Extent: {x: 10.3958, y: 1.97335, z: 0}
   m_PointLightInnerAngle: 61.181446
   m_PointLightOuterAngle: 74.26839
   m_PointLightInnerRadius: 0.78129894
@@ -286,8 +286,8 @@ MonoBehaviour:
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -18.89444, y: -1.3159328, z: 0}
-  - {x: 0.48981455, y: -0.13448012, z: -0.000000033527613}
-  - {x: 0.7814582, y: -0.11686206, z: 0.00000008568168}
-  - {x: 0.77164435, y: 0.31636453, z: 0}
-  - {x: 0.48573703, y: 0.33647567, z: -0.000000033527613}
+  - {x: 0.38323426, y: -0.18776989, z: -0.000000029802322}
+  - {x: 0.6748779, y: -0.17015171, z: 0.00000008940697}
+  - {x: 0.6650641, y: 0.26307487, z: 0}
+  - {x: 0.37915683, y: 0.28318596, z: -0.000000029802322}
   - {x: -18.897984, y: 1.4115986, z: 0}
