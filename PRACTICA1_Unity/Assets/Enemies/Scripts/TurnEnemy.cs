@@ -6,7 +6,7 @@ public class TurnEnemy : MonoBehaviour
 {
     public void rotateEnemy()
     {
-        transform.Rotate(0.0f, 0.0f, 180f, Space.World);
+        transform.localScale = new Vector2(-1, 1);
     }
     IEnumerator delay2seconds()
     {

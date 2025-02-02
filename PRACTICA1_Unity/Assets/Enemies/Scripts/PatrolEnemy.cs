@@ -22,6 +22,7 @@ public class PatrolEnemy : MonoBehaviour
             if (Vector2.Distance(transform.position, patrolPoint[0].position) < Mathf.Epsilon) 
             { 
                 destinationPoint = 1;
+                //S'ha de canviar
                 rotateEnemy();
             }
         }
