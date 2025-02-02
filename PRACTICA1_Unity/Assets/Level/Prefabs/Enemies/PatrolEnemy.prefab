@@ -264,6 +264,22 @@ PrefabInstance:
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
       value: -1.1839012
       objectReference: {fileID: 0}
+    - target: {fileID: 5134906925740289721, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
+      propertyPath: m_Size.x
+      value: 0.89327985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134906925740289721, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8826077
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134906925740289721, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.053360075
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134906925740289721, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.05869615
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1763159912703231817, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
     m_RemovedGameObjects: []

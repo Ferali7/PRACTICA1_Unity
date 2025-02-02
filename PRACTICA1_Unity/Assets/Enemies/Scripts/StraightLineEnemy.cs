@@ -7,7 +7,6 @@ public class StraightLineEnemy : MonoBehaviour
     public Transform[] patrolPoint;
     public float moveSpeed;
     public int destinationPoint;
-    private Vector2 movement;
     public void rotateEnemy()
     {
         transform.Rotate(0.0f, 0.0f, 180f, Space.World);
