@@ -5,7 +5,7 @@ using UnityEngine.Rendering.Universal;
 
 public class ConeEnemy : MonoBehaviour
 {
-    private bool turnUp;
+    private bool turnUp = true;
     private bool turnDown;
     private void Update()
     {
