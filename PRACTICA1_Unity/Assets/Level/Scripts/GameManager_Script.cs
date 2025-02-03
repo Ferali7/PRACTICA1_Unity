@@ -8,6 +8,9 @@ public class GameManager_Script : MonoBehaviour
 {
     public int numberKeys = 0;
     public int amountMoney = 0;
+    public int amountMoneyLv1 = 0;
+    public int amountMoneyLv2 = 0;
+    public int amountMoneyLv3 = 0;
     public bool isPaused = false;
     public GameObject GameUI;
     public GameObject PauseMenu;
@@ -60,6 +63,7 @@ public class GameManager_Script : MonoBehaviour
                 }
             }
         }
+
     }
     //funcions per controlar les variables
     public void AddKey()
