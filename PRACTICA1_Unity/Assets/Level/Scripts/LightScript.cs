@@ -8,17 +8,19 @@ public class LightScript : MonoBehaviour
     Light2D bookshelfLight;
     private bool upIntenisty = true;
     private bool downIntensity = false;
+    public float timeFlicker = 1.0f;
+    public float intensityVariation = 3.0f;
 
     IEnumerator TurnOnLight()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(timeFlicker);
         upIntenisty = true;
         downIntensity = false;
         StartCoroutine(TurnOffLight());
     }
     IEnumerator TurnOffLight()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(timeFlicker);
         downIntensity = true;
         upIntenisty = false;
         StartCoroutine(TurnOnLight());
@@ -30,15 +32,15 @@ public class LightScript : MonoBehaviour
         bookshelfLight = GetComponent<Light2D>();
         StartCoroutine(TurnOffLight());
     }
-    private void Update()
+    void Update()
     {
         if (upIntenisty)
         {
-            bookshelfLight.intensity = bookshelfLight.intensity + 3f * Time.deltaTime;
+            bookshelfLight.intensity = bookshelfLight.intensity + intensityVariation * Time.deltaTime;
         }
         if (downIntensity)
         {
-            bookshelfLight.intensity = bookshelfLight.intensity - 3f * Time.deltaTime;
+            bookshelfLight.intensity = bookshelfLight.intensity - intensityVariation * Time.deltaTime;
         }
     }
 
