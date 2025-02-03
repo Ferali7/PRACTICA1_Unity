@@ -256,7 +256,7 @@ MonoBehaviour:
   - {x: 0.25, y: -0.9375, z: 0}
   m_ShapePathHash: 1553576589
   m_Mesh: {fileID: 0}
-  m_InstanceId: 70012
+  m_InstanceId: 67742
   m_LocalBounds:
     m_Center: {x: 0, y: -0.33925378, z: 0}
     m_Extent: {x: 0.25, y: 0.5982462, z: 0}
@@ -288,7 +288,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -299,7 +299,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &3907070673866324090
 GameObject:
   m_ObjectHideFlags: 0
