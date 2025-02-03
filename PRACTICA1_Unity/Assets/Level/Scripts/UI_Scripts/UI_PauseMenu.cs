@@ -58,8 +58,4 @@ public class UI_PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("SETTINGS");
     }
-    public void ButtonTest()
-    {
-        print("TESTINGGG");
-    }
 }
