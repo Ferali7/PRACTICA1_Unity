@@ -92,6 +92,10 @@ public class GameManager_Script : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
     }
+    public void PauseSettings()
+    {
+
+    }
     public void MainMenu()
     {
         PauseMenu.SetActive(false);
