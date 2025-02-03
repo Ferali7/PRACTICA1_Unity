@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class provaObject : MonoBehaviour
 {
-    public UI_Permanent UI_Permanent;
+    public GameManager_Script gameManager;
     public bool collapsed;
     Animator animator;
     Rigidbody2D rb;
@@ -26,7 +26,7 @@ public class provaObject : MonoBehaviour
     }
     public void OnInteract()
     {
-        UI_Permanent.instance.AddKey();
+        gameManager.AddKey();
         Destroy(gameObject);
     }
     public void OnTriggerEnter2D(Collider2D collision)

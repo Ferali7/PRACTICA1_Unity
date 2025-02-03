@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class provaObjChange : MonoBehaviour
 {
-    public UI_Permanent UI_Permanent;
+    public GameManager_Script gameManager;
     public bool collapsed;
     public Sprite closed;
     public Sprite open;
@@ -33,7 +33,7 @@ public class provaObjChange : MonoBehaviour
         //print("Interacted with " + gameObject.name);
         if (gameObject.GetComponent<SpriteRenderer>().sprite == open)
         {
-            UI_Permanent.instance.AddMoney();
+            gameManager.AddMoney();
             this.gameObject.GetComponent<SpriteRenderer>().sprite = stolen;
             gameObject.tag = "Interacted";
         }
