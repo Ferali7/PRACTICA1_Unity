@@ -123,6 +123,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!43 &42187814
 =======
@@ -188,6 +189,9 @@ PrefabInstance:
 =======
 --- !u!43 &28718020
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+--- !u!43 &28718020
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,6 +203,7 @@ Mesh:
   - serializedVersion: 2
     firstByte: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     indexCount: 42
     topology: 0
     baseVertex: 0
@@ -208,6 +213,8 @@ Mesh:
       m_Center: {x: 0.0009191036, y: -0.5006079, z: 0}
       m_Extent: {x: 0.5017574, y: 0.27956134, z: 0}
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
     indexCount: 90
     topology: 0
     baseVertex: 0
@@ -216,6 +223,9 @@ Mesh:
     localAABB:
       m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
       m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
   m_Shapes:
     vertices: []
@@ -234,15 +244,21 @@ Mesh:
   m_KeepIndices: 1
   m_IndexFormat: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndexBuffer: 00000100020003000100000003000400010003000500040003000600050006000300070002000800000000000900030001000a00020004000b00010003000c00070005000d00040006000e00050007000f000600
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 16
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
   m_IndexBuffer: 0000010002000300010000000400010003000500040006000400070001000500070004000800070005000900070008000a00070009000b0007000a000c0007000b000d0007000c000e0007000d0007000e000f000200100000000000110003000100120002000700130001000300140004000400150006000600160005000500170008000f001800070008001900090009001a000a000a001b000b000b001c000c000c001d000d000d001e000e000e001f000f00
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 32
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
     m_Channels:
     - stream: 0
@@ -302,8 +318,13 @@ Mesh:
       format: 0
       dimension: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_DataSize: 704
     _typelessdata: 68af003f075a62be00000000a3ff7fbf79ce593b000000800000008068af003f075a62be68af003f075a62bea035003f2cb947bf000000003d75953b52ff7f3f0000008000000080a035003f2cb947bfa035003f2cb947bf8472003fd72700bf00000000a3ff7fbf79ce593b0000008000000080a035003f2cb947bf68af003f075a62be00f0703a21ea62be00000000c6988f3af6ff7fbf000000800000008068af003f075a62bef03600bf3b7a63be0040553ab62347bf000000003d74953b52ff7f3f00000080000000800096ffbe418e46bfa035003f2cb947bf0096ffbe418e46bf00000000b6ff7f3f8205433b00000080000000800096ffbe418e46bf0096ffbe418e46bff80000bfd06cffbe00000000b6ff7f3f8205433b0000008000000080f03600bf3b7a63be0096ffbe418e46bff03600bf3b7a63be00000000c6988f3af6ff7fbf0000008000000080f03600bf3b7a63bef03600bf3b7a63be8472003fd72700bf00000000a3ff7fbf79ce593b0000008000000080a035003f2cb947bf68af003f075a62be68af003f075a62be00000000c6988f3af6ff7fbf000000800000008068af003f075a62be68af003f075a62bea035003f2cb947bf00000000a3ff7fbf79ce593b0000008000000080a035003f2cb947bfa035003f2cb947bf0040553ab62347bf000000003d75953b52ff7f3f00000080000000800096ffbe418e46bfa035003f2cb947bf00f0703a21ea62be00000000c6988f3af6ff7fbf000000800000008068af003f075a62bef03600bf3b7a63be0096ffbe418e46bf000000003d74953b52ff7f3f00000080000000800096ffbe418e46bf0096ffbe418e46bff80000bfd06cffbe00000000b6ff7f3f8205433b0000008000000080f03600bf3b7a63be0096ffbe418e46bff03600bf3b7a63be00000000b6ff7f3f8205433b0000008000000080f03600bf3b7a63bef03600bf3b7a63be
+=======
+    m_DataSize: 1408
+    _typelessdata: 522b813eeb321fbf0000000060ff7f3fb43a8fbb0000008000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe00000000173be83b5bfe7f3f00000080000000808900823e3eb47fbe8900823e3eb47fbeee95813efa1fdfbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe522b813eeb321fbf5a08623e61061fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf00000000cd6db0bcccf07fbf000000000000008011ba413ed7d91ebf11ba413ed7d91ebf5da73e3e0b2330bf000000005ebf7f3f70dd35bd00000080000000805da73e3e0b2330bf5da73e3e0b2330bfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe806d8abab43630bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000150ad23aebff7fbf000000800000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000f0d67fbfe5f810bd0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000bb2b99bd74487fbf0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbf955450bb0000000000000080f93c80be849e1fbf36da80bef0087cbe36da80bef0087cbe00000000abff7fbfef5150bb000000000000008036da80bef0087cbe36da80bef0087cbeee95813efa1fdfbe0000000060ff7f3fb43a8fbb00000080000000808900823e3eb47fbe522b813eeb321fbf522b813eeb321fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe8900823e3eb47fbe8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe5a08623e61061fbf00000000cd6db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf11ba413ed7d91ebfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf5da73e3e0b2330bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf5da73e3e0b2330bf36da80bef0087cbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe36da80bef0087cbe806d8abab43630bf00000000150ad23aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfe5f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000bb2b99bd74487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000abff7fbf955450bb0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbfef5150bb0000000000000080f93c80be849e1fbf36da80bef0087cbe
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_DataSize: 1408
     _typelessdata: 522b813eeb321fbf0000000060ff7f3fb43a8fbb0000008000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe00000000173be83b5bfe7f3f00000080000000808900823e3eb47fbe8900823e3eb47fbeee95813efa1fdfbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe522b813eeb321fbf5a08623e61061fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf00000000cd6db0bcccf07fbf000000000000008011ba413ed7d91ebf11ba413ed7d91ebf5da73e3e0b2330bf000000005ebf7f3f70dd35bd00000080000000805da73e3e0b2330bf5da73e3e0b2330bfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe806d8abab43630bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000150ad23aebff7fbf000000800000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000f0d67fbfe5f810bd0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000bb2b99bd74487fbf0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbf955450bb0000000000000080f93c80be849e1fbf36da80bef0087cbe36da80bef0087cbe00000000abff7fbfef5150bb000000000000008036da80bef0087cbe36da80bef0087cbeee95813efa1fdfbe0000000060ff7f3fb43a8fbb00000080000000808900823e3eb47fbe522b813eeb321fbf522b813eeb321fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe8900823e3eb47fbe8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe5a08623e61061fbf00000000cd6db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf11ba413ed7d91ebfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf5da73e3e0b2330bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf5da73e3e0b2330bf36da80bef0087cbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe36da80bef0087cbe806d8abab43630bf00000000150ad23aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfe5f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000bb2b99bd74487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000abff7fbf955450bb0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbfef5150bb0000000000000080f93c80be849e1fbf36da80bef0087cbe
@@ -362,8 +383,13 @@ Mesh:
     m_UVInfo: 0
   m_LocalAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0.0009191036, y: -0.5006079, z: 0}
     m_Extent: {x: 0.5017574, y: 0.27956134, z: 0}
+=======
+    m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
+    m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
     m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
@@ -545,6 +571,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &72409013
 GameObject:
@@ -779,6 +806,9 @@ Mesh:
     path: 
 --- !u!43 &108986758
 >>>>>>> Stashed changes
+=======
+--- !u!43 &70665034
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 --- !u!43 &70665034
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -1339,9 +1369,12 @@ Transform:
   m_PrefabInstance: {fileID: 136003716}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &165420354
 PrefabInstance:
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &149723992
 Mesh:
   m_ObjectHideFlags: 0
@@ -1509,6 +1542,8 @@ Mesh:
     path: 
 --- !u!1001 &165420354
 PrefabInstance:
+<<<<<<< HEAD
+=======
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -1791,6 +1826,1145 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &185335728
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 224308222}
+    m_Modifications:
+    - target: {fileID: 2343038018785517213, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_Name
+      value: column (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5429568
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.030019581
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+--- !u!4 &185335729 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+  m_PrefabInstance: {fileID: 185335728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!43 &192561877
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 16
+    localAABB:
+      m_Center: {x: 0, y: -0.5, z: 0}
+      m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020003000100000003000400010005000400030006000400050004000600070002000800000000000900030001000a00020004000b00010003000c00050007000d00040005000e00060006000f000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 16
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 704
+    _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: -0.5, z: 0}
+    m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &195568434
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 16
+    localAABB:
+      m_Center: {x: 0, y: -0.5, z: 0}
+      m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020003000100000003000400010005000400030006000400050004000600070002000800000000000900030001000a00020004000b00010003000c00050007000d00040005000e00060006000f000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 16
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 704
+    _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: -0.5, z: 0}
+    m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!1001 &209507891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1320259331}
+    m_Modifications:
+    - target: {fileID: 2343038018785517213, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_Name
+      value: bookshelfNOTMovable (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3186239433987473456, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 905038453}
+    - target: {fileID: 3186239433987473456, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_InstanceId
+      value: -26772
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.041507177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 904563567364080071, guid: bcf932f3796a73f439fbbde363922174, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197526485335833233, guid: bcf932f3796a73f439fbbde363922174, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+--- !u!4 &209507892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+  m_PrefabInstance: {fileID: 209507891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &224308221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224308222}
+  m_Layer: 0
+  m_Name: columns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &224308222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224308221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.6015153, y: 1.1, z: -0.030019581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 732703985}
+  - {fileID: 171918297}
+  - {fileID: 804302382}
+  - {fileID: 185335729}
+  - {fileID: 818450217}
+  - {fileID: 2026399264}
+  - {fileID: 136003717}
+  - {fileID: 1015971374}
+  - {fileID: 942818515}
+  - {fileID: 2092596463}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &275028128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1320259331}
+    m_Modifications:
+    - target: {fileID: 2343038018785517213, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_Name
+      value: bookshelfNOTMovable (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3186239433987473456, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 781236047}
+    - target: {fileID: 3186239433987473456, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_InstanceId
+      value: -26888
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.041507177
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 904563567364080071, guid: bcf932f3796a73f439fbbde363922174, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197526485335833233, guid: bcf932f3796a73f439fbbde363922174, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197526485335833233, guid: 367a871ae63febb4aa83549a636be7b9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+--- !u!4 &275028129 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7272462546299354199, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
+  m_PrefabInstance: {fileID: 275028128}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &279161074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 279161076}
+  - component: {fileID: 279161075}
+  m_Layer: 0
+  m_Name: Mapa Lv1.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &279161075
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279161074}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: 200b75ba26ff2f7459cb52c070ec691e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 20, y: 11.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &279161076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279161074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0312543, y: -3.9687486, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &283251725
+GameObject:
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+<<<<<<< HEAD
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 224308222}
+    m_Modifications:
+    - target: {fileID: 2343038018785517213, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_Name
+      value: column (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9599999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.030019581
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+--- !u!1001 &171918296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 224308222}
+    m_Modifications:
+    - target: {fileID: 2343038018785517213, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_Name
+      value: column (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5429568
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.030019581
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+--- !u!4 &171918297 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7272462546299354199, guid: d6f500f97e9f1254ba8ad85953890bc3, type: 3}
+  m_PrefabInstance: {fileID: 171918296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!43 &178944533
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5625, y: 1.6875, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &313407327
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 42
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 16
+    localAABB:
+      m_Center: {x: 0, y: -0.5, z: 0}
+      m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 00000100020003000100000003000400010005000400030006000400050004000600070002000800000000000900030001000a00020004000b00010003000c00050007000d00040005000e00060006000f000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 16
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 704
+    _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: -0.5, z: 0}
+    m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &331594288
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 90
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 32
+    localAABB:
+      m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
+      m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 0000010002000300010000000400010003000500040006000400070001000500070004000800070005000900070008000a00070009000b0007000a000c0007000b000d0007000c000e0007000d0007000e000f000200100000000000110003000100120002000700130001000300140004000400150006000600160005000500170008000f001800070008001900090009001a000a000a001b000b000b001c000c000c001d000d000d001e000e000e001f000f00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 32
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1408
+    _typelessdata: 522b813eeb321fbf0000000060ff7f3fb43a8fbb0000008000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe00000000173be83b5bfe7f3f00000080000000808900823e3eb47fbe8900823e3eb47fbeee95813efa1fdfbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe522b813eeb321fbf5a08623e61061fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf00000000cd6db0bcccf07fbf000000000000008011ba413ed7d91ebf11ba413ed7d91ebf5da73e3e0b2330bf000000005ebf7f3f70dd35bd00000080000000805da73e3e0b2330bf5da73e3e0b2330bfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe806d8abab43630bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000150ad23aebff7fbf000000800000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000f0d67fbfe5f810bd0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000bb2b99bd74487fbf0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbf955450bb0000000000000080f93c80be849e1fbf36da80bef0087cbe36da80bef0087cbe00000000abff7fbfef5150bb000000000000008036da80bef0087cbe36da80bef0087cbeee95813efa1fdfbe0000000060ff7f3fb43a8fbb00000080000000808900823e3eb47fbe522b813eeb321fbf522b813eeb321fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe8900823e3eb47fbe8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe5a08623e61061fbf00000000cd6db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf11ba413ed7d91ebfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf5da73e3e0b2330bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf5da73e3e0b2330bf36da80bef0087cbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe36da80bef0087cbe806d8abab43630bf00000000150ad23aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfe5f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000bb2b99bd74487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000abff7fbf955450bb0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbfef5150bb0000000000000080f93c80be849e1fbf36da80bef0087cbe
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
+    m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+<<<<<<< HEAD
 --- !u!1001 &185335728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3679,6 +4853,8 @@ Mesh:
     path: 
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1001 &372647296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4061,8 +5237,11 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &435725238
 Mesh:
   m_ObjectHideFlags: 0
@@ -4330,6 +5509,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 437401781}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &476519524
 =======
 --- !u!43 &406060109
@@ -4503,6 +5683,8 @@ Mesh:
 --- !u!1 &437401781
 GameObject:
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &455214761
 Mesh:
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -5035,6 +6217,7 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03fb4af464d3a78449bcb21f85242add, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &516239585
 Mesh:
   m_ObjectHideFlags: 0
@@ -5367,6 +6550,8 @@ Mesh:
     path: 
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1 &589741795
 GameObject:
   m_ObjectHideFlags: 0
@@ -5457,8 +6642,12 @@ Transform:
   m_PrefabInstance: {fileID: 507924666}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!43 &614027286
+=======
+--- !u!43 &598293047
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 --- !u!43 &598293047
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -5614,6 +6803,7 @@ Mesh:
   m_LocalAABB:
     m_Center: {x: 0, y: -0.5, z: 0}
     m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
@@ -5783,6 +6973,8 @@ Mesh:
   m_LocalAABB:
     m_Center: {x: 0, y: -0.5, z: 0}
     m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
   m_MeshUsageFlags: 0
@@ -7660,6 +8852,9 @@ Transform:
   m_PrefabInstance: {fileID: 818450216}
   m_PrefabAsset: {fileID: 0}
 --- !u!43 &842900367
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 Mesh:
   m_ObjectHideFlags: 0
@@ -8229,6 +9424,7 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!43 &857325999
 Mesh:
@@ -8240,10 +9436,15 @@ GameObject:
 --- !u!43 &874680023
 Mesh:
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+--- !u!43 &874680023
+Mesh:
+>>>>>>> parent of 7c6515e (fixed pause buttons)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Name: 
@@ -8429,6 +9630,8 @@ RectTransform:
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
   m_Name: 
   serializedVersion: 11
   m_SubMeshes:
@@ -8441,8 +9644,13 @@ RectTransform:
     vertexCount: 16
     localAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Center: {x: 0.0020944476, y: -0.71631014, z: 0}
       m_Extent: {x: 0.31459445, y: 0.22118986, z: 0}
+=======
+      m_Center: {x: 0, y: -0.5, z: 0}
+      m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
       m_Center: {x: 0, y: -0.5, z: 0}
       m_Extent: {x: 0.5, y: 0.2784512, z: 0}
@@ -8464,7 +9672,11 @@ RectTransform:
   m_KeepIndices: 1
   m_IndexFormat: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndexBuffer: 00000100020000000300010004000300000005000300040006000300050003000600070002000800000000000900040001000a00020003000b00010007000c00030004000d00050005000e00060006000f000700
+=======
+  m_IndexBuffer: 00000100020003000100000003000400010005000400030006000400050004000600070002000800000000000900030001000a00020004000b00010003000c00050007000d00040005000e00060006000f000700
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
   m_IndexBuffer: 00000100020003000100000003000400010005000400030006000400050004000600070002000800000000000900030001000a00020004000b00010003000c00050007000d00040005000e00060006000f000700
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -8530,7 +9742,11 @@ RectTransform:
       dimension: 0
     m_DataSize: 704
 <<<<<<< HEAD
+<<<<<<< HEAD
     _typelessdata: 0000a03e000070bf0000000010fd7f3f1a221bbc00000080000000800000a03e000070bf0000a03e000070bf0c25a23e6880fdbe000000001e96a3bceff27f3f00000080000000800c25a23e6880fdbe0c25a23e6880fdbe8612a13e1a6037bf0000000010fd7f3f1a221bbc00000080000000800c25a23e6880fdbe0000a03e000070bf0043093bfe5b00bf000000001e96a3bceff27f3f00000080000000800000a0bec8f701bf0c25a23e6880fdbe00000000000070bf0000000000000080000080bf00000000000000800000a03e000070bf0000a0be000070bf0000a0be000070bf0000000000000080000080bf00000000000000800000a0be000070bf0000a0be000070bf0000a0bee4fb38bf00000000000080bf0000008000000080000000800000a0be000070bf0000a0bec8f701bf0000a0bec8f701bf00000000000080bf0000008000000080000000800000a0bec8f701bf0000a0bec8f701bf8612a13e1a6037bf0000000010fd7f3f1a221bbc00000080000000800c25a23e6880fdbe0000a03e000070bf0000a03e000070bf0000000000000080000080bf00000000000000800000a03e000070bf0000a03e000070bf0c25a23e6880fdbe0000000010fd7f3f1a221bbc00000080000000800c25a23e6880fdbe0c25a23e6880fdbe0043093bfe5b00bf000000001e96a3bceff27f3f00000080000000800000a0bec8f701bf0c25a23e6880fdbe0000a0bec8f701bf000000001e96a3bceff27f3f00000080000000800000a0bec8f701bf0000a0bec8f701bf00000000000070bf0000000000000080000080bf00000000000000800000a03e000070bf0000a0be000070bf0000a0be000070bf00000000000080bf0000008000000080000000800000a0be000070bf0000a0be000070bf0000a0bee4fb38bf00000000000080bf0000008000000080000000800000a0be000070bf0000a0bec8f701bf
+=======
+    _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -8588,8 +9804,13 @@ RectTransform:
     m_UVInfo: 0
   m_LocalAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0.0020944476, y: -0.71631014, z: 0}
     m_Extent: {x: 0.31459445, y: 0.22118986, z: 0}
+=======
+    m_Center: {x: 0, y: -0.5, z: 0}
+    m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_Center: {x: 0, y: -0.5, z: 0}
     m_Extent: {x: 0.5, y: 0.2784512, z: 0}
@@ -8607,8 +9828,11 @@ RectTransform:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1 &876125871
 GameObject:
   m_ObjectHideFlags: 0
@@ -8632,6 +9856,9 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
   m_GameObject: {fileID: 876125871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -8703,8 +9930,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &901016858
 Mesh:
   m_ObjectHideFlags: 0
@@ -8870,6 +10100,9 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1 &903959635
 GameObject:
@@ -9503,6 +10736,7 @@ PrefabInstance:
 --- !u!1 &978745199
 GameObject:
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9822,6 +11056,8 @@ Mesh:
 Mesh:
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10124,10 +11360,14 @@ CanvasRenderer:
   m_GameObject: {fileID: 1021867237}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!43 &1116117152
 =======
 --- !u!43 &1150926728
+=======
+--- !u!43 &1028104880
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 --- !u!43 &1028104880
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -10148,8 +11388,13 @@ Mesh:
     vertexCount: 16
     localAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Center: {x: -0.0000009536743, y: -1.1845907, z: 0}
       m_Extent: {x: 0.38011646, y: 0.3154093, z: 0}
+=======
+      m_Center: {x: 0, y: -0.5, z: 0}
+      m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
       m_Center: {x: 0, y: -0.5, z: 0}
       m_Extent: {x: 0.5, y: 0.2784512, z: 0}
@@ -10233,7 +11478,11 @@ Mesh:
       dimension: 0
     m_DataSize: 704
 <<<<<<< HEAD
+<<<<<<< HEAD
     _typelessdata: 0000c03e0000c0bf00000000d8fd7f3fd4db04bc00000080000000800000c03e0000c0bf0000c03e0000c0bf809ec23eac825ebf00000000288b5cbc10fa7f3f0000008000000080809ec23eac825ebf809ec23eac825ebf404fc13eaba097bf00000000d8fd7f3fd4db04bc0000008000000080809ec23eac825ebf0000c03e0000c0bf000000000000c0bf0000000000000080000080bf00000000000000800000c03e0000c0bf0000c0be0000c0bf000080b508d25fbf00000000288b5cbc10fa7f3f0000008000000080c09ec2be642161bf809ec23eac825ebf0000c0be0000c0bf0000000000000080000080bf00000000000000800000c0be0000c0bf0000c0be0000c0bf604fc1be594898bf00000000c6fd7fbf961907bc00000000000000800000c0be0000c0bfc09ec2be642161bfc09ec2be642161bf00000000c6fd7fbf961907bc0000000000000080c09ec2be642161bfc09ec2be642161bf404fc13eaba097bf00000000d8fd7f3fd4db04bc0000008000000080809ec23eac825ebf0000c03e0000c0bf0000c03e0000c0bf0000000000000080000080bf00000000000000800000c03e0000c0bf0000c03e0000c0bf809ec23eac825ebf00000000d8fd7f3fd4db04bc0000008000000080809ec23eac825ebf809ec23eac825ebf000080b508d25fbf00000000288b5cbc10fa7f3f0000008000000080c09ec2be642161bf809ec23eac825ebf000000000000c0bf0000000000000080000080bf00000000000000800000c03e0000c0bf0000c0be0000c0bfc09ec2be642161bf00000000288b5cbc10fa7f3f0000008000000080c09ec2be642161bfc09ec2be642161bf0000c0be0000c0bf00000000c6fd7fbf961907bc00000000000000800000c0be0000c0bf0000c0be0000c0bf604fc1be594898bf00000000c6fd7fbf961907bc00000000000000800000c0be0000c0bfc09ec2be642161bf
+=======
+    _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -10291,9 +11540,12 @@ Mesh:
     m_UVInfo: 0
   m_LocalAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: -0.0000009536743, y: -1.1845907, z: 0}
     m_Extent: {x: 0.38011646, y: 0.3154093, z: 0}
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
     m_Center: {x: 0, y: -0.5, z: 0}
     m_Extent: {x: 0.5, y: 0.2784512, z: 0}
   m_MeshUsageFlags: 0
@@ -10626,6 +11878,9 @@ Mesh:
   m_LocalAABB:
     m_Center: {x: 0.0020944476, y: -0.71631014, z: 0}
     m_Extent: {x: 0.31459445, y: 0.22118986, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
@@ -11471,9 +12726,13 @@ Transform:
   m_PrefabInstance: {fileID: 1185772590}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 --- !u!43 &1201412297
+=======
+--- !u!43 &1213148962
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 --- !u!43 &1213148962
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -11494,8 +12753,13 @@ Mesh:
     vertexCount: 16
     localAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Center: {x: 0, y: -0.5, z: 0}
       m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+=======
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0.84375, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0.5, y: 0.84375, z: 0}
@@ -11579,7 +12843,11 @@ Mesh:
       dimension: 0
     m_DataSize: 704
 <<<<<<< HEAD
+<<<<<<< HEAD
     _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
+=======
+    _typelessdata: 0000003f000058bf000000000000803f0000008000000080000000800000003f000058bf0000003f000058bf0000003f0000583f00000000000000800000803f00000080000000800000003f0000583f0000003f0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f000000bf000058bf0000000000000080000080bf0000000000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f000000bf0000583f00000000000080bf000000800000008000000080000000bf0000583f000000bf0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf0000003f000058bf0000000000000080000080bf00000000000000800000003f000058bf0000003f000058bf0000003f0000583f000000000000803f0000008000000080000000800000003f0000583f0000003f0000583f000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000bf0000583f00000000000000800000803f0000008000000080000000bf0000583f000000bf0000583f000000bf000058bf00000000000080bf000000800000008000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     _typelessdata: 0000003f000058bf000000000000803f0000008000000080000000800000003f000058bf0000003f000058bf0000003f0000583f00000000000000800000803f00000080000000800000003f0000583f0000003f0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f000000bf000058bf0000000000000080000080bf0000000000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f000000bf0000583f00000000000080bf000000800000008000000080000000bf0000583f000000bf0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf0000003f000058bf0000000000000080000080bf00000000000000800000003f000058bf0000003f000058bf0000003f0000583f000000000000803f0000008000000080000000800000003f0000583f0000003f0000583f000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000bf0000583f00000000000000800000803f0000008000000080000000bf0000583f000000bf0000583f000000bf000058bf00000000000080bf000000800000008000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -11637,8 +12905,13 @@ Mesh:
     m_UVInfo: 0
   m_LocalAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0, y: -0.5, z: 0}
     m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+=======
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.84375, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.5, y: 0.84375, z: 0}
@@ -11656,7 +12929,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1001 &1216815181
@@ -12657,7 +13933,10 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &1305530206
 Mesh:
   m_ObjectHideFlags: 0
@@ -13123,8 +14402,11 @@ PrefabInstance:
       addedObject: {fileID: 499257795}
   m_SourcePrefab: {fileID: 100100000, guid: 129f3701cc1537f49bf50b07f22e2e9e, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &1353008553
 Mesh:
   m_ObjectHideFlags: 0
@@ -13290,6 +14572,9 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1001 &1365226089
 PrefabInstance:
@@ -13354,6 +14639,7 @@ Transform:
   m_PrefabInstance: {fileID: 1720826763}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &1413965456
 =======
 --- !u!43 &1364829864
@@ -13363,10 +14649,15 @@ Mesh:
 --- !u!1 &1443519115
 GameObject:
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+--- !u!1 &1443519115
+GameObject:
+>>>>>>> parent of 7c6515e (fixed pause buttons)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Name: 
   serializedVersion: 11
@@ -13589,6 +14880,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 5bb0088f63f8f7f42aee4c7c44fb1cfc, type: 3}
 --- !u!43 &1386008773
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1443519116}
@@ -13619,6 +14912,7 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!43 &1456622684
+<<<<<<< HEAD
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 Mesh:
   m_ObjectHideFlags: 0
@@ -13791,6 +15085,8 @@ Transform:
   m_PrefabInstance: {fileID: 1720826763}
   m_PrefabAsset: {fileID: 0}
 --- !u!43 &1439338319
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13801,14 +15097,14 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 90
+    indexCount: 42
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 32
+    vertexCount: 16
     localAABB:
-      m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
-      m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
+      m_Center: {x: 0, y: -0.5, z: 0}
+      m_Extent: {x: 0.5, y: 0.2784512, z: 0}
   m_Shapes:
     vertices: []
     shapes: []
@@ -13825,10 +15121,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 0000010002000300010000000400010003000500040006000400070001000500070004000800070005000900070008000a00070009000b0007000a000c0007000b000d0007000c000e0007000d0007000e000f000200100000000000110003000100120002000700130001000300140004000400150006000600160005000500170008000f001800070008001900090009001a000a000a001b000b000b001c000c000c001d000d000d001e000e000e001f000f00
+  m_IndexBuffer: 00000100020003000100000003000400010005000400030006000400050004000600070002000800000000000900030001000a00020004000b00010003000c00050007000d00040005000e00060006000f000700
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 32
+    m_VertexCount: 16
     m_Channels:
     - stream: 0
       offset: 0
@@ -13886,8 +15182,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1408
-    _typelessdata: 522b813eeb321fbf0000000060ff7f3fb43a8fbb0000008000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe00000000173be83b5bfe7f3f00000080000000808900823e3eb47fbe8900823e3eb47fbeee95813efa1fdfbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe522b813eeb321fbf5a08623e61061fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf00000000cd6db0bcccf07fbf000000000000008011ba413ed7d91ebf11ba413ed7d91ebf5da73e3e0b2330bf000000005ebf7f3f70dd35bd00000080000000805da73e3e0b2330bf5da73e3e0b2330bfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe806d8abab43630bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000150ad23aebff7fbf000000800000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000f0d67fbfe5f810bd0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000bb2b99bd74487fbf0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbf955450bb0000000000000080f93c80be849e1fbf36da80bef0087cbe36da80bef0087cbe00000000abff7fbfef5150bb000000000000008036da80bef0087cbe36da80bef0087cbeee95813efa1fdfbe0000000060ff7f3fb43a8fbb00000080000000808900823e3eb47fbe522b813eeb321fbf522b813eeb321fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe8900823e3eb47fbe8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe5a08623e61061fbf00000000cd6db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf11ba413ed7d91ebfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf5da73e3e0b2330bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf5da73e3e0b2330bf36da80bef0087cbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe36da80bef0087cbe806d8abab43630bf00000000150ad23aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfe5f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000bb2b99bd74487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000abff7fbf955450bb0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbfef5150bb0000000000000080f93c80be849e1fbf36da80bef0087cbe
+    m_DataSize: 704
+    _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -13941,8 +15237,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
-    m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
+    m_Center: {x: 0, y: -0.5, z: 0}
+    m_Extent: {x: 0.5, y: 0.2784512, z: 0}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
@@ -13955,6 +15251,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
 --- !u!1 &1443519115
 >>>>>>> Stashed changes
 GameObject:
@@ -14108,6 +15405,8 @@ CanvasRenderer:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1 &1458054513
@@ -14970,8 +16269,12 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6284a57e76143894c93353639a39c2e1, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!43 &1592687803
+=======
+--- !u!43 &1580229350
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 --- !u!43 &1580229350
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -14986,6 +16289,7 @@ Mesh:
   - serializedVersion: 2
     firstByte: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     indexCount: 90
     topology: 0
     baseVertex: 0
@@ -14995,6 +16299,8 @@ Mesh:
       m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
       m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
     indexCount: 42
     topology: 0
     baseVertex: 0
@@ -15003,6 +16309,9 @@ Mesh:
     localAABB:
       m_Center: {x: 0, y: -0.5, z: 0}
       m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
   m_Shapes:
     vertices: []
@@ -15021,15 +16330,21 @@ Mesh:
   m_KeepIndices: 1
   m_IndexFormat: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndexBuffer: 0000010002000300010000000400010003000500040006000400070001000500070004000800070005000900070008000a00070009000b0007000a000c0007000b000d0007000c000e0007000d0007000e000f000200100000000000110003000100120002000700130001000300140004000400150006000600160005000500170008000f001800070008001900090009001a000a000a001b000b000b001c000c000c001d000d000d001e000e000e001f000f00
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 32
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
   m_IndexBuffer: 00000100020003000100000003000400010005000400030006000400050004000600070002000800000000000900030001000a00020004000b00010003000c00050007000d00040005000e00060006000f000700
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 16
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
     m_Channels:
     - stream: 0
@@ -15089,8 +16404,13 @@ Mesh:
       format: 0
       dimension: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_DataSize: 1408
     _typelessdata: 522b813eeb321fbf0000000060ff7f3fb43a8fbb0000008000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe00000000173be83b5bfe7f3f00000080000000808900823e3eb47fbe8900823e3eb47fbeee95813efa1fdfbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe522b813eeb321fbf5a08623e61061fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf00000000cd6db0bcccf07fbf000000000000008011ba413ed7d91ebf11ba413ed7d91ebf5da73e3e0b2330bf000000005ebf7f3f70dd35bd00000080000000805da73e3e0b2330bf5da73e3e0b2330bfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe806d8abab43630bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000150ad23aebff7fbf000000800000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000f0d67fbfe5f810bd0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000bb2b99bd74487fbf0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbf955450bb0000000000000080f93c80be849e1fbf36da80bef0087cbe36da80bef0087cbe00000000abff7fbfef5150bb000000000000008036da80bef0087cbe36da80bef0087cbeee95813efa1fdfbe0000000060ff7f3fb43a8fbb00000080000000808900823e3eb47fbe522b813eeb321fbf522b813eeb321fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe8900823e3eb47fbe8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe5a08623e61061fbf00000000cd6db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf11ba413ed7d91ebfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf5da73e3e0b2330bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf5da73e3e0b2330bf36da80bef0087cbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe36da80bef0087cbe806d8abab43630bf00000000150ad23aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfe5f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000bb2b99bd74487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000abff7fbf955450bb0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbfef5150bb0000000000000080f93c80be849e1fbf36da80bef0087cbe
+=======
+    m_DataSize: 704
+    _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_DataSize: 704
     _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
@@ -15149,8 +16469,13 @@ Mesh:
     m_UVInfo: 0
   m_LocalAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
     m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
+=======
+    m_Center: {x: 0, y: -0.5, z: 0}
+    m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_Center: {x: 0, y: -0.5, z: 0}
     m_Extent: {x: 0.5, y: 0.2784512, z: 0}
@@ -15167,6 +16492,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1593627634
 GameObject:
@@ -15300,6 +16626,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593627634}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &1623347489
@@ -15467,6 +16795,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!43 &1628290221
 =======
@@ -15638,6 +16967,8 @@ Mesh:
     path: 
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1 &1644083064
 GameObject:
   m_ObjectHideFlags: 0
@@ -15782,6 +17113,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!43 &1701550692
@@ -16147,6 +17479,8 @@ Mesh:
     path: 
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1001 &1720826763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16289,6 +17623,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f25100a8aa80c84686d54e92a3c6801, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!43 &1789351417
 Mesh:
@@ -16455,6 +17790,8 @@ Mesh:
     offset: 0
     size: 0
     path: 
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1001 &1803772956
@@ -16838,6 +18175,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bb0088f63f8f7f42aee4c7c44fb1cfc, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1912196084
@@ -17304,6 +18642,8 @@ CanvasRenderer:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &1931284709
 Mesh:
   m_ObjectHideFlags: 0
@@ -17584,9 +18924,13 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bb0088f63f8f7f42aee4c7c44fb1cfc, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 --- !u!43 &1956364078
+=======
+--- !u!43 &1982210169
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 --- !u!43 &1982210169
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -17607,8 +18951,13 @@ Mesh:
     vertexCount: 16
     localAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0.5, y: 0.84375, z: 0}
+=======
+      m_Center: {x: 0, y: -0.5, z: 0}
+      m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
       m_Center: {x: 0, y: -0.5, z: 0}
       m_Extent: {x: 0.5, y: 0.2784512, z: 0}
@@ -17692,7 +19041,11 @@ Mesh:
       dimension: 0
     m_DataSize: 704
 <<<<<<< HEAD
+<<<<<<< HEAD
     _typelessdata: 0000003f000058bf000000000000803f0000008000000080000000800000003f000058bf0000003f000058bf0000003f0000583f00000000000000800000803f00000080000000800000003f0000583f0000003f0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f000000bf000058bf0000000000000080000080bf0000000000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f000000bf0000583f00000000000080bf000000800000008000000080000000bf0000583f000000bf0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf0000003f000058bf0000000000000080000080bf00000000000000800000003f000058bf0000003f000058bf0000003f0000583f000000000000803f0000008000000080000000800000003f0000583f0000003f0000583f000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000bf0000583f00000000000000800000803f0000008000000080000000bf0000583f000000bf0000583f000000bf000058bf00000000000080bf000000800000008000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f
+=======
+    _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     _typelessdata: 0000003f944847bf000000000000803f0000008000000080000000800000003f944847bf0000003f944847bf0000003fb0dd62be00000000000000800000803f00000080000000800000003fb0dd62be0000003fb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be000000bf944847bf0000000000000080000080bf0000000000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be000000bfb0dd62be00000000000080bf000000800000008000000080000000bfb0dd62be000000bfb0dd62be0000003f000000bf000000000000803f0000008000000080000000800000003fb0dd62be0000003f944847bf0000003f944847bf0000000000000080000080bf00000000000000800000003f944847bf0000003f944847bf0000003fb0dd62be000000000000803f0000008000000080000000800000003fb0dd62be0000003fb0dd62be00000000b0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be0000003fb0dd62be00000000944847bf0000000000000080000080bf00000000000000800000003f944847bf000000bf944847bf000000bfb0dd62be00000000000000800000803f0000008000000080000000bfb0dd62be000000bfb0dd62be000000bf944847bf00000000000080bf000000800000008000000080000000bf944847bf000000bf944847bf000000bf000000bf00000000000080bf000000800000008000000080000000bf944847bf000000bfb0dd62be
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -17750,8 +19103,13 @@ Mesh:
     m_UVInfo: 0
   m_LocalAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.5, y: 0.84375, z: 0}
+=======
+    m_Center: {x: 0, y: -0.5, z: 0}
+    m_Extent: {x: 0.5, y: 0.2784512, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_Center: {x: 0, y: -0.5, z: 0}
     m_Extent: {x: 0.5, y: 0.2784512, z: 0}
@@ -17769,7 +19127,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!43 &2014721943
@@ -18008,7 +19369,10 @@ Transform:
   m_PrefabInstance: {fileID: 2026399263}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1 &2048205073
 GameObject:
   m_ObjectHideFlags: 0
@@ -18101,6 +19465,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1 &2064243134
 GameObject:
@@ -18371,8 +19738,12 @@ Transform:
   m_PrefabInstance: {fileID: 1739767829}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!43 &2096014076
+=======
+--- !u!43 &2131805040
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 --- !u!43 &2131805040
 >>>>>>> parent of 7c6515e (fixed pause buttons)
@@ -18387,6 +19758,7 @@ Mesh:
   - serializedVersion: 2
     firstByte: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     indexCount: 90
     topology: 0
     baseVertex: 0
@@ -18396,6 +19768,8 @@ Mesh:
       m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
       m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
     indexCount: 42
     topology: 0
     baseVertex: 0
@@ -18404,6 +19778,9 @@ Mesh:
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0.5, y: 0.84375, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
   m_Shapes:
     vertices: []
@@ -18422,15 +19799,21 @@ Mesh:
   m_KeepIndices: 1
   m_IndexFormat: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndexBuffer: 0000010002000300010000000400010003000500040006000400070001000500070004000800070005000900070008000a00070009000b0007000a000c0007000b000d0007000c000e0007000d0007000e000f000200100000000000110003000100120002000700130001000300140004000400150006000600160005000500170008000f001800070008001900090009001a000a000a001b000b000b001c000c000c001d000d000d001e000e000e001f000f00
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 32
 =======
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
   m_IndexBuffer: 00000100020003000100000003000400010005000400030006000400050004000600070002000800000000000900030001000a00020004000b00010003000c00050007000d00040005000e00060006000f000700
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 16
+<<<<<<< HEAD
+>>>>>>> parent of 7c6515e (fixed pause buttons)
+=======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
     m_Channels:
     - stream: 0
@@ -18490,8 +19873,13 @@ Mesh:
       format: 0
       dimension: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_DataSize: 1408
     _typelessdata: 522b813eeb321fbf0000000060ff7f3fb43a8fbb0000008000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe00000000173be83b5bfe7f3f00000080000000808900823e3eb47fbe8900823e3eb47fbeee95813efa1fdfbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe522b813eeb321fbf5a08623e61061fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf00000000cd6db0bcccf07fbf000000000000008011ba413ed7d91ebf11ba413ed7d91ebf5da73e3e0b2330bf000000005ebf7f3f70dd35bd00000080000000805da73e3e0b2330bf5da73e3e0b2330bfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe806d8abab43630bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000150ad23aebff7fbf000000800000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000f0d67fbfe5f810bd0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000bb2b99bd74487fbf0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbf955450bb0000000000000080f93c80be849e1fbf36da80bef0087cbe36da80bef0087cbe00000000abff7fbfef5150bb000000000000008036da80bef0087cbe36da80bef0087cbeee95813efa1fdfbe0000000060ff7f3fb43a8fbb00000080000000808900823e3eb47fbe522b813eeb321fbf522b813eeb321fbf00000000c86db0bcccf07fbf0000000000000080522b813eeb321fbf522b813eeb321fbf8900823e3eb47fbe0000000060ff7f3f5e398fbb00000080000000808900823e3eb47fbe8900823e3eb47fbe8029933a97de7dbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe8900823e3eb47fbe5a08623e61061fbf00000000cd6db0bcccf07fbf0000000000000080522b813eeb321fbf11ba413ed7d91ebf11ba413ed7d91ebf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf11ba413ed7d91ebfb730403e717e27bf000000005ebf7f3f70dd35bd000000800000008011ba413ed7d91ebf5da73e3e0b2330bf5da73e3e0b2330bf0000000066ffd13aebff7fbf00000080000000805da73e3e0b2330bf5da73e3e0b2330bf36da80bef0087cbe00000000173be83b5bfe7f3f000000800000008036da80bef0087cbe36da80bef0087cbe806d8abab43630bf00000000150ad23aebff7fbf00000080000000805da73e3e0b2330bf13d140be5e4a30bf13d140be5e4a30bf00000000f0d67fbfd2f810bd000000000000008013d140be5e4a30bf13d140be5e4a30bf7aea41bef28728bf00000000f0d67fbfe5f810bd000000000000008013d140be5e4a30bfe10343be87c520bfe10343be87c520bf00000000ae2a99bd76487fbf0000000000000080e10343be87c520bfe10343be87c520bfeabe61be063220bf00000000bb2b99bd74487fbf0000000000000080e10343be87c520bff93c80be849e1fbff93c80be849e1fbf00000000abff7fbf955450bb0000000000000080f93c80be849e1fbff93c80be849e1fbf988b80bec0a0debe00000000abff7fbfef5150bb0000000000000080f93c80be849e1fbf36da80bef0087cbe
+=======
+    m_DataSize: 704
+    _typelessdata: 0000003f000058bf000000000000803f0000008000000080000000800000003f000058bf0000003f000058bf0000003f0000583f00000000000000800000803f00000080000000800000003f0000583f0000003f0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f000000bf000058bf0000000000000080000080bf0000000000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f000000bf0000583f00000000000080bf000000800000008000000080000000bf0000583f000000bf0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf0000003f000058bf0000000000000080000080bf00000000000000800000003f000058bf0000003f000058bf0000003f0000583f000000000000803f0000008000000080000000800000003f0000583f0000003f0000583f000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000bf0000583f00000000000000800000803f0000008000000080000000bf0000583f000000bf0000583f000000bf000058bf00000000000080bf000000800000008000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_DataSize: 704
     _typelessdata: 0000003f000058bf000000000000803f0000008000000080000000800000003f000058bf0000003f000058bf0000003f0000583f00000000000000800000803f00000080000000800000003f0000583f0000003f0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f000000bf000058bf0000000000000080000080bf0000000000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f000000bf0000583f00000000000080bf000000800000008000000080000000bf0000583f000000bf0000583f0000003f00000000000000000000803f0000008000000080000000800000003f0000583f0000003f000058bf0000003f000058bf0000000000000080000080bf00000000000000800000003f000058bf0000003f000058bf0000003f0000583f000000000000803f0000008000000080000000800000003f0000583f0000003f0000583f000000000000583f00000000000000800000803f0000008000000080000000bf0000583f0000003f0000583f00000000000058bf0000000000000080000080bf00000000000000800000003f000058bf000000bf000058bf000000bf0000583f00000000000000800000803f0000008000000080000000bf0000583f000000bf0000583f000000bf000058bf00000000000080bf000000800000008000000080000000bf000058bf000000bf000058bf000000bf0000000000000000000080bf000000800000008000000080000000bf000058bf000000bf0000583f
@@ -18550,8 +19938,13 @@ Mesh:
     m_UVInfo: 0
   m_LocalAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0.0011227578, y: -0.4673813, z: 0}
     m_Extent: {x: 0.2527876, y: 0.22125345, z: 0}
+=======
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.84375, z: 0}
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.5, y: 0.84375, z: 0}
@@ -18569,8 +19962,11 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 7c6515e (fixed pause buttons)
 =======
 >>>>>>> parent of 7c6515e (fixed pause buttons)
 --- !u!1 &2137863469
