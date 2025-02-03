@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8533771347655050807}
   - component: {fileID: 6483165552999336805}
   - component: {fileID: 1740003503361463738}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LongVerticalBench
   m_TagString: Untagged
   m_Icon: {fileID: 0}

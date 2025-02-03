@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager_Script : MonoBehaviour
 {
     public int numberKeys = 0;
     public int amountMoney = 0;
     public bool isPaused = false;
+    public GameObject GameUI;
     public GameObject PauseMenu;
     public static GameManager_Script instance;
     private void Awake()
@@ -32,15 +34,23 @@ public class GameManager_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (SceneManager.GetActiveScene().name == "MAIN MENU" || SceneManager.GetActiveScene().name == "SETTINGS")
         {
-            if (isPaused == true)
+            GameUI.SetActive(false);
+        }
+        else
+        {
+            GameUI.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                ResumeGame();
-            }
-            else
-            {
-                PauseGame();
+                if (isPaused == true)
+                {
+                    ResumeGame();
+                }
+                else
+                {
+                    PauseGame();
+                }
             }
         }
     }
@@ -70,5 +80,33 @@ public class GameManager_Script : MonoBehaviour
         PauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+    }
+    public void MainMenu()
+    {
+        PauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+        SceneManager.LoadScene("MAIN MENU");
+    }
+    //funcions del menú principal
+    public static void PlayGame()
+    {
+        SceneManager.LoadScene("LEVEL 1");
+    }
+    public static void SettingsMenu()
+    {
+        SceneManager.LoadScene("SETTINGS");
+    }
+    public static void BackToMainMenu()
+    {
+        SceneManager.LoadScene("MAIN MENU");
+    }
+    public static void WebsiteButton()
+    {
+        print("GO TO WEBSITEEE");
+    }
+    public static void Exit()
+    {
+        Application.Quit();
     }
 }
