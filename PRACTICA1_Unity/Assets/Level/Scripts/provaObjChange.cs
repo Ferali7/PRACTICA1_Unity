@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class provaObjChange : MonoBehaviour
 {
-    public GameManager_Script gameManager;
+    public GameManager_V_Script gameManagerV;
     public bool collapsed;
     public Sprite closed;
     public Sprite open;
@@ -14,7 +14,7 @@ public class provaObjChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager_Script>();
+        gameManagerV = FindObjectOfType<GameManager_V_Script>();
         collapsed = false;
         this.gameObject.GetComponent<SpriteRenderer>().sprite = closed;
         rb = GetComponent<Rigidbody2D>();
@@ -34,14 +34,13 @@ public class provaObjChange : MonoBehaviour
         //print("Interacted with " + gameObject.name);
         if (gameObject.GetComponent<SpriteRenderer>().sprite == open)
         {
-            gameManager.AddMoney();
+            gameManagerV.AddMoney();
             this.gameObject.GetComponent<SpriteRenderer>().sprite = stolen;
             gameObject.tag = "Interacted";
         }
         if (gameObject.GetComponent<SpriteRenderer>().sprite == closed)
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = open;
-            //gameObject.tag = "Interacted";
         }
         
     }

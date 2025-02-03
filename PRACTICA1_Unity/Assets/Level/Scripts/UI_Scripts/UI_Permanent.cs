@@ -6,8 +6,10 @@ using UnityEngine.UI;
 
 public class UI_Permanent : MonoBehaviour
 {
-    public GameManager_Script gameManager;
+    public GameManager_V_Script gameManagerV;
+    //public GameManager_Script gameManager;
     public GameObject PauseMenu;
+    public GameObject SettingsMenu;
     public TextMeshProUGUI moneyText;
     public TextMeshProUGUI keysText;
     //Aquest script serveix únicament per fer que la UI no es borri ni perdi dades al passar de nivell a nivell (o de pis en pis). Volem que el jugador segueixi tenint la mateixa quantitat de diners al passar d'un a altre i no s'inicialitzi.
@@ -30,14 +32,14 @@ public class UI_Permanent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager_Script>();
+        gameManagerV = FindObjectOfType<GameManager_V_Script>();
         PauseMenu.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        moneyText.text = gameManager.amountMoney.ToString();
-        keysText.text = gameManager.numberKeys.ToString();
+        moneyText.text = gameManagerV.amountMoney.ToString();
+        keysText.text = gameManagerV.numberKeys.ToString();
     }
 }

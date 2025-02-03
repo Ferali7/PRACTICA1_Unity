@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class pickUps : MonoBehaviour
 {
-    public GameManager_Script gameManager;
+    public GameManager_V_Script gameManagerV;
     public int minValue;
     public int maxValue;
 
@@ -27,7 +27,7 @@ public class pickUps : MonoBehaviour
     public void AddMoney()
     {
         int randomCoinMoney = Random.Range(minValue, maxValue);
-        gameManager.amountMoney = gameManager.amountMoney + randomCoinMoney;
+        gameManagerV.amountMoney = gameManagerV.amountMoney + randomCoinMoney;
     }
 
 

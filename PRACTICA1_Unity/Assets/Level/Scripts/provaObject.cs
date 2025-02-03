@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class provaObject : MonoBehaviour
 {
-    public GameManager_Script gameManager;
+    public GameManager_V_Script gameManagerV;
     public bool collapsed;
     Animator animator;
     Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager_Script>();
+        gameManagerV = FindObjectOfType<GameManager_V_Script>();
         collapsed = false;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -27,7 +27,7 @@ public class provaObject : MonoBehaviour
     }
     public void OnInteract()
     {
-        gameManager.AddKey();
+        gameManagerV.AddKey();
         Destroy(gameObject);
     }
     public void OnTriggerEnter2D(Collider2D collision)

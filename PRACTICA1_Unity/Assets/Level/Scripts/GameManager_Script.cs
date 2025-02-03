@@ -6,14 +6,15 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class GameManager_Script : MonoBehaviour
 {
-    public int numberKeys = 0;
+    /*public int numberKeys = 0;
     public int amountMoney = 0;
     public int amountMoneyLv1 = 0;
     public int amountMoneyLv2 = 0;
-    public int amountMoneyLv3 = 0;
+    public int amountMoneyLv3 = 0;*/
     public bool isPaused = false;
     public GameObject GameUI;
     public GameObject PauseMenu;
+    public GameObject SettingsMenu;
     public static GameManager_Script instance;
     private void Awake()
     {
@@ -33,6 +34,7 @@ public class GameManager_Script : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         PauseMenu.SetActive(false);
+        SettingsMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -65,7 +67,7 @@ public class GameManager_Script : MonoBehaviour
         }
 
     }
-    //funcions per controlar les variables
+    /*//funcions per controlar les variables
     public void AddKey()
     {
         numberKeys++;
@@ -78,7 +80,7 @@ public class GameManager_Script : MonoBehaviour
     {
         int randomMoney = Random.Range(300, 500);
         amountMoney = amountMoney + randomMoney;
-    }
+    }*/
     //funcions del menú de pausa
     public void PauseGame()
     {
@@ -94,7 +96,11 @@ public class GameManager_Script : MonoBehaviour
     }
     public void PauseSettings()
     {
-
+        SettingsMenu.SetActive(true);
+    }
+    public void BackSettings()
+    {
+        SettingsMenu.SetActive(false);
     }
     public void MainMenu()
     {
@@ -108,7 +114,7 @@ public class GameManager_Script : MonoBehaviour
     {
         SceneManager.LoadScene("LEVEL 1");
     }
-    public static void SettingsMenu()
+    public static void SettingsStartMenu()
     {
         SceneManager.LoadScene("SETTINGS");
     }

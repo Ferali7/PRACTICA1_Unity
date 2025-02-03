@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class doorKey_Script : MonoBehaviour
 {
-    public GameManager_Script gameManager;
+    public GameManager_V_Script gameManagerV;
     public bool collapsed;
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager_Script>();
+        gameManagerV = FindObjectOfType<GameManager_V_Script>();
         collapsed = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (collapsed && Input.GetKeyDown(KeyCode.E) && gameManager.numberKeys > 0)
+        if (collapsed && Input.GetKeyDown(KeyCode.E) && gameManagerV.numberKeys > 0)
         {
-            gameManager.numberKeys--;
+            gameManagerV.numberKeys--;
             OnInteract();
         }
     }

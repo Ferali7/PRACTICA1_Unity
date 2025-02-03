@@ -4,7 +4,24 @@ using UnityEngine;
 
 public class GameManager_V_Script : MonoBehaviour
 {
-    
+    public int numberKeys = 0;
+    public int amountMoney = 0;
+    public int amountMoneyLv1 = 0;
+    public int amountMoneyLv2 = 0;
+    public int amountMoneyLv3 = 0;
+    public static GameManager_V_Script instance;
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +32,19 @@ public class GameManager_V_Script : MonoBehaviour
     void Update()
     {
         
+    }
+    //funcions per controlar les variables
+    public void AddKey()
+    {
+        numberKeys++;
+    }
+    public void UseKey()
+    {
+        numberKeys--;
+    }
+    public void AddMoney()
+    {
+        int randomMoney = Random.Range(300, 500);
+        amountMoney = amountMoney + randomMoney;
     }
 }
