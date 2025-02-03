@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class doorKey_Script : MonoBehaviour
 {
-    public UI_Permanent UI_Permanent;
+    public GameManager_Script gameManager;
     public bool collapsed;
     // Start is called before the first frame update
     void Start()
@@ -15,7 +15,7 @@ public class doorKey_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (collapsed && Input.GetKeyDown(KeyCode.E) && UI_Permanent.numberKeys > 0)
+        if (collapsed && Input.GetKeyDown(KeyCode.E) && gameManager.numberKeys > 0)
         {
             OnInteract();
         }
