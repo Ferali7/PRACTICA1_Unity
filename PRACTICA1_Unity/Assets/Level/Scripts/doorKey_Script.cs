@@ -9,6 +9,7 @@ public class doorKey_Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager_Script>();
         collapsed = false;
     }
 
@@ -17,6 +18,7 @@ public class doorKey_Script : MonoBehaviour
     {
         if (collapsed && Input.GetKeyDown(KeyCode.E) && gameManager.numberKeys > 0)
         {
+            gameManager.numberKeys--;
             OnInteract();
         }
     }

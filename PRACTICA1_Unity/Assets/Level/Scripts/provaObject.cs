@@ -11,6 +11,7 @@ public class provaObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager_Script>();
         collapsed = false;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();

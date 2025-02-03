@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2035816544339011077}
   m_Layer: 0
   m_Name: doorKey
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,5 +143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dda9659fefa33c498b945a42e95b842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI_Permanent: {fileID: 0}
+  gameManager: {fileID: 0}
   collapsed: 0
