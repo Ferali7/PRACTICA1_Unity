@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class provaInterruptorPressio : MonoBehaviour
 {
+    public GameObject Compuerta;
     public bool pressed;
-    public bool hasActivated;
+    //public bool hasActivated;
     // Start is called before the first frame update
     void Start()
     {
         pressed = false;
-        hasActivated = false;
+        //hasActivated = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (pressed && !hasActivated)
+        if (pressed)
         {
-            //accion que pasará cuando se pulse el botón con un mueble o jarrón
+            //acció quan es pulsa el botó amb moble
+            //hasActivated = true;
+            //play sound???
+            Destroy(Compuerta);
         }
     }
     public void OnTriggerEnter2D(Collider2D collision)

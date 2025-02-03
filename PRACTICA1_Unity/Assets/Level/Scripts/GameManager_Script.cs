@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class GameManager_Script : MonoBehaviour
 {
     public int numberKeys = 0;
@@ -40,6 +41,12 @@ public class GameManager_Script : MonoBehaviour
         }
         else
         {
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                Time.timeScale = 1f;
+                int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(currentSceneIndex + 1);
+            }
             GameUI.SetActive(true);
             if (Input.GetKeyDown(KeyCode.Escape))
             {
