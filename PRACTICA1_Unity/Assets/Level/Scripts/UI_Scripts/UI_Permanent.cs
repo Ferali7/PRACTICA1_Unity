@@ -16,7 +16,7 @@ public class UI_Permanent : MonoBehaviour
     private void Awake()
     {
         //si el UI no ha ocorregut en cap instancia, aquest script fa que la instància principal sigui aquesta, i si ja hi ha una instància, no assignarà una nova com a instància, sinó que destruirà la nova. això preveu duplicats de la instància.
-        if (instance == null)
+        /*if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -24,7 +24,7 @@ public class UI_Permanent : MonoBehaviour
         else
         {
             Destroy(gameObject);
-        }
+        }*/
     }
 
     // Start is called before the first frame update

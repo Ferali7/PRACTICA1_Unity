@@ -15,7 +15,7 @@ public class GameManager_Script : MonoBehaviour
     private void Awake()
     {
         //si el GameManager no ha ocorregut en cap instancia anterior, aquest script fa que la instància principal sigui aquesta, i si ja hi ha una instància, no assignarà una nova com a instància, sinó que destruirà la nova. això preveu duplicats de la instància.
-        if (instance == null)
+        /*if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -23,7 +23,7 @@ public class GameManager_Script : MonoBehaviour
         else
         {
             Destroy(gameObject);
-        }
+        }*/
     }
     // Start is called before the first frame update
     void Start()
