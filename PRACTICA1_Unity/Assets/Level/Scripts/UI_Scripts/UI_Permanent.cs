@@ -29,7 +29,7 @@ public class UI_Permanent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager = FindObjectOfType<GameManager_Script>();
     }
 
     // Update is called once per frame
