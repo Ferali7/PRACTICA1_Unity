@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MC_Movement : MonoBehaviour
 {
-    public UI_PauseMenu PauseMenu;
+    public GameManager_Script gameManager;
     [SerializeField] public float speed = 5f;
     private Vector2 movement;
     Rigidbody2D rb;
@@ -16,8 +16,8 @@ public class MC_Movement : MonoBehaviour
     {
         //per trobar el canvas que cal invertir quan mirem a l'esquerra
         canvasTransform = GameObject.Find("CanvasTeclas").transform;
-        //per trobar el script del menu de pausa i poder dirli que no es mourà a no ser que isPaused sigui falsa
-        PauseMenu = FindObjectOfType<UI_PauseMenu>();
+        //per trobar el script del GameManager i poder dirli que no es mourà a no ser que isPaused sigui falsa
+        gameManager = FindObjectOfType<GameManager_Script>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         //inicialització de les variables de la màquina d'estats com a falses excepte la de idle
@@ -30,7 +30,7 @@ public class MC_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (PauseMenu.isPaused == false)
+        if (gameManager.isPaused == false)
         {
             //input del jugador
             movement.x = Input.GetAxisRaw("Horizontal");

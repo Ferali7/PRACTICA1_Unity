@@ -6,6 +6,8 @@ public class GameManager_Script : MonoBehaviour
 {
     public int numberKeys = 0;
     public int amountMoney = 0;
+    public bool isPaused = false;
+    public GameObject PauseMenu;
     public static GameManager_Script instance;
     private void Awake()
     {
@@ -23,14 +25,26 @@ public class GameManager_Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Time.timeScale = 1.0f;
+        PauseMenu.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isPaused == true)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
     }
+    //funcions per controlar les variables
     public void AddKey()
     {
         numberKeys++;
@@ -43,5 +57,18 @@ public class GameManager_Script : MonoBehaviour
     {
         int randomMoney = Random.Range(300, 500);
         amountMoney = amountMoney + randomMoney;
+    }
+    //funcions del menú de pausa
+    public void PauseGame()
+    {
+        PauseMenu.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+    }
+    public void ResumeGame()
+    {
+        PauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
     }
 }
