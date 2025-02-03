@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MC_Movement : MonoBehaviour
 {
+    public UI_PauseMenu PauseMenu;
     [SerializeField] public float speed = 5f;
     private Vector2 movement;
     Rigidbody2D rb;
@@ -15,9 +16,10 @@ public class MC_Movement : MonoBehaviour
     {
         //per trobar el canvas que cal invertir quan mirem a l'esquerra
         canvasTransform = GameObject.Find("CanvasTeclas").transform;
+        //per trobar el script del menu de pausa i poder dirli que no es mourà a no ser que isPaused sigui falsa
+        PauseMenu = FindObjectOfType<UI_PauseMenu>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        //print("start");
         //inicialització de les variables de la màquina d'estats com a falses excepte la de idle
         animator.SetBool("notWalking", true);
         animator.SetBool("walkingRight", false);
@@ -28,67 +30,16 @@ public class MC_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //input del jugador
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        //prevenim moviment en diagonal prioritzant un eix sobre l'altre
-        /*if (movement.x != 0)
+        if (PauseMenu.isPaused == false)
         {
-            movement.y = 0;
+            //input del jugador
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+            rb.velocity = new Vector2(movement.x, movement.y) * speed;
+            movementStates();
         }
-        else if (movement.y != 0)
-        {
-            movement.x = 0;
-        }*/
-        rb.velocity = new Vector2(movement.x, movement.y) * speed;
-        //funcions previament realitzades abans d'utilitzar la màquina d'estats
-        //isMoving();
-        //isMovingDiagonal();
-        movementStates();
+
     }
-    //ismoving() i ismovingdiagonal(), ja no utilitzats
-    /*
-    public void isMoving()
-    {
-        //funció que determina el sprite que es mostra dependent de en quina direcció es mou
-        if (Input.GetAxisRaw("Horizontal") > 0)
-        {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = right;
-        }
-        if (Input.GetAxisRaw("Horizontal") < 0)
-        {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = left;
-        }
-        if (Input.GetAxisRaw("Vertical") > 0)
-        {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = up;
-        }
-        if (Input.GetAxisRaw("Vertical") < 0)
-        {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = down;
-        }
-    }
-    public void isMovingDiagonal()
-    {
-        //funció que determina el sprite que es mostra dependent de en quina direcció es mou
-        if (movement.x > 0)
-        {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = right;
-        }
-        if (movement.x < 0)
-        {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = left;
-        }
-        if (movement.y > 0)
-        {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = up;
-        }
-        if (movement.y < 0)
-        {
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = down;
-        }
-    }
-    */
     //movementStates() es la màquina d'estats que hem designat per les animacions d'idle, moviment dreta esquerra i adalt abaix
     public void movementStates()
     {

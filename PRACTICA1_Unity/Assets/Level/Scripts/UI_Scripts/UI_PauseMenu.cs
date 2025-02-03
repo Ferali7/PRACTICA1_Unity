@@ -24,7 +24,6 @@ public class UI_PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            print("ESCAOPEEEEE");
             if (isPaused == true)
             {
                 ResumeGame();
@@ -38,7 +37,7 @@ public class UI_PauseMenu : MonoBehaviour
     public void PauseGame()
     {
         PauseMenu.SetActive(true);
-        //Time.timeScale = 0f;
+        Time.timeScale = 0f;
         isPaused = true;
     }
     public void ResumeGame()
@@ -56,5 +55,9 @@ public class UI_PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("SETTINGS");
+    }
+    public void ButtonTest()
+    {
+        print("TESTINGGG");
     }
 }
