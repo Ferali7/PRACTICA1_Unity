@@ -34,7 +34,6 @@ public class MC_Action : MonoBehaviour
         if (collision.CompareTag("Interactable"))
         {
             currentInteractable = collision.gameObject;
-            //print("Interactable entered: " + currentInteractable.name);
             //mostrar la E Key a sobre de l'objecte i dirli que la seva posició és la posició de la camara + un offset o displace de (1,1)
             showE = true;
         }
