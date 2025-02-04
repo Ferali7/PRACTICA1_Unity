@@ -13,7 +13,6 @@ public class NextLevel_Script : MonoBehaviour
         FadeToLevel();
         yield return new WaitForSeconds(2f);
         loadNextLevel();
-
     }
     
     void loadNextLevel()
