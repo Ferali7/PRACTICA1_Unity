@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 public class EnemyDetection : MonoBehaviour
 {
+    public GameManager_Script GameManager;
     private GameObject player;
     private bool InSight;
     private bool InLight = false;
@@ -18,6 +19,7 @@ public class EnemyDetection : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        GameManager = GameObject.FindObjectOfType<GameManager_Script>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,13 @@ public class EnemyDetection : MonoBehaviour
     {
 
     }
+    IEnumerator caughtDelay()
+    {
+
+        yield return new WaitForSeconds(2.0f);
+        GameManager.caught = true;
+    }
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -39,6 +48,8 @@ public class EnemyDetection : MonoBehaviour
                 myLight.color = new Color(255, 0, 0, 50f);
                 myLight.falloffIntensity = 0f;
                 myLight.shapeLightFalloffSize = 0f;
+                GameManager.caught = true;
+                //StartCoroutine(caughtDelay());
             }
             else
             {

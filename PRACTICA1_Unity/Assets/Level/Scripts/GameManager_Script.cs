@@ -49,12 +49,14 @@ public class GameManager_Script : MonoBehaviour
                     PauseGame();
                 }
             }
+            if (caught)
+            {
+                Time.timeScale = 0f;
+                isPaused = true;
+                CaughtMenu.SetActive(true);
+            }
         }
-        if (caught)
-        {
-            Time.timeScale = 0f;
-            CaughtMenu.SetActive(true);
-        }
+
     }
     //funcions del menú de pausa
     public void PauseGame()
