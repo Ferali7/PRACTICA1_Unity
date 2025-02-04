@@ -6,37 +6,20 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class GameManager_Script : MonoBehaviour
 {
-    /*public int numberKeys = 0;
-    public int amountMoney = 0;
-    public int amountMoneyLv1 = 0;
-    public int amountMoneyLv2 = 0;
-    public int amountMoneyLv3 = 0;*/
     public bool isPaused = false;
     public GameObject GameUI;
     public GameObject PauseMenu;
     public GameObject SettingsMenu;
-    //public GameObject SettingsMainMenu;
-    //public static GameManager_Script instance;
-    private void Awake()
-    {
-        //si el GameManager no ha ocorregut en cap instancia anterior, aquest script fa que la instància principal sigui aquesta, i si ja hi ha una instància, no assignarà una nova com a instància, sinó que destruirà la nova. això preveu duplicats de la instància.
-        /*if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }*/
-    }
+    public GameObject CaughtMenu;
+    public bool caught;
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 1.0f;
         PauseMenu.SetActive(false);
         SettingsMenu.SetActive(false);
-        //SettingsMainMenu.SetActive(false);
+        CaughtMenu.SetActive(false);
+        caught = false;
     }
 
     // Update is called once per frame
@@ -67,6 +50,11 @@ public class GameManager_Script : MonoBehaviour
                 }
             }
         }
+        if (caught)
+        {
+            Time.timeScale = 0f;
+            CaughtMenu.SetActive(true);
+        }
     }
     //funcions del menú de pausa
     public void PauseGame()
@@ -96,6 +84,13 @@ public class GameManager_Script : MonoBehaviour
         isPaused = false;
         SceneManager.LoadScene("MAIN MENU");
     }
+    //funció del menú Caught
+    public void Restart()
+    {
+        Time.timeScale = 1f;
+        SceneManager.GetActiveScene();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }    
     //funcions del menú principal
     public void PlayGame()
     {
