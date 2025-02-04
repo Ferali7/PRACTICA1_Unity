@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 214c99a97520be440b051ed5eae10abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Stop: 0
   sprites:
   - {fileID: 2940606022891931617, guid: eeb4fa01880362d4f801ce6321277368, type: 3}
   - {fileID: 5474422102366796305, guid: eeb4fa01880362d4f801ce6321277368, type: 3}
@@ -186,7 +187,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.952
+  m_FalloffIntensity: 1
   m_Color: {r: 1, g: 0.91764706, b: 0.5176471, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -205,8 +206,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -9.543, y: 0.047400057, z: 0}
-    m_Extent: {x: 9.9649, y: 1.9732001, z: 0}
+    m_Center: {x: -9.54295, y: 0.047450006, z: 0}
+    m_Extent: {x: 9.45495, y: 1.46415, z: 0}
   m_PointLightInnerAngle: 61.181446
   m_PointLightOuterAngle: 74.26839
   m_PointLightInnerRadius: 0.78129894
@@ -214,7 +215,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 0.61
+  m_ShapeLightFalloffSize: 0.1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -18.89444, y: -1.3159328, z: 0}
@@ -329,6 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feadeed26e672b044833e8d157bb318e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myLight: {fileID: 2553889970793339858}
 --- !u!114 &2216534905099500679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,3 +343,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc3d7fb708e0784a9b82cdca6b0c3c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Stop: 0

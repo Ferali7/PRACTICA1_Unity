@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class GameManager_V_Script : MonoBehaviour
 {
     public int numberKeys = 0;
@@ -9,6 +9,7 @@ public class GameManager_V_Script : MonoBehaviour
     public int amountMoneyLv1 = 0;
     public int amountMoneyLv2 = 0;
     public int amountMoneyLv3 = 0;
+    public string currentLevel;
     public static GameManager_V_Script instance;
     private void Awake()
     {
@@ -31,7 +32,7 @@ public class GameManager_V_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        currentLevel = SceneManager.GetActiveScene().name;
     }
     //funcions per controlar les variables
     public void AddKey()

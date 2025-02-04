@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Rendering.Universal;
 public class EnemyDetection : MonoBehaviour
 {
     private GameObject player;
     private bool InSight;
     private bool InLight = false;
     AudioManager audioManager;
+    public Light2D myLight;
 
     void Awake()
     {
@@ -30,6 +31,19 @@ public class EnemyDetection : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             InLight = true;
+            if (InSight && InLight)
+            {
+                Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.green);
+                print("Detected!!");
+                audioManager.PlaySFX(audioManager.caught);
+                myLight.color = new Color(255, 0, 0, 50f);
+                myLight.falloffIntensity = 0f;
+                myLight.shapeLightFalloffSize = 0f;
+            }
+            else
+            {
+                Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.red);
+            }
         }
     }
     void OnTriggerExit2D(Collider2D collision)
@@ -45,16 +59,7 @@ public class EnemyDetection : MonoBehaviour
         if (ray.collider != null)
         {
             InSight = ray.collider.CompareTag("Player");
-            if (InSight && InLight)
-            {
-                Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.green);
-                print("Detected!!");
-                audioManager.PlaySFX(audioManager.caught);
-            }
-            else
-            {
-                Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.red);
-            }
+            
         }
     }
 }

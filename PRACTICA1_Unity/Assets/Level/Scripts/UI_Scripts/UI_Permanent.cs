@@ -12,6 +12,7 @@ public class UI_Permanent : MonoBehaviour
     public GameObject SettingsMenu;
     public TextMeshProUGUI moneyText;
     public TextMeshProUGUI keysText;
+    public TextMeshProUGUI levelText;
     //Aquest script serveix únicament per fer que la UI no es borri ni perdi dades al passar de nivell a nivell (o de pis en pis). Volem que el jugador segueixi tenint la mateixa quantitat de diners al passar d'un a altre i no s'inicialitzi.
     public static UI_Permanent instance;
     //aquesta funció Awake, que passa abans que carregui el nivell i abans que void Start()
@@ -41,5 +42,6 @@ public class UI_Permanent : MonoBehaviour
     {
         moneyText.text = gameManagerV.amountMoney.ToString();
         keysText.text = gameManagerV.numberKeys.ToString();
+        levelText.text = gameManagerV.currentLevel.ToString();
     }
 }
