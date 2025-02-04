@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class provaInterruptorPressio : MonoBehaviour
@@ -28,7 +29,6 @@ public class provaInterruptorPressio : MonoBehaviour
         {
             //acció quan es pulsa el botó amb moble
             //hasActivated = true;
-            audioManager.PlaySFX(audioManager.buttonDoorOpen);
             Destroy(Compuerta);
         }
     }
@@ -36,6 +36,7 @@ public class provaInterruptorPressio : MonoBehaviour
     {
         if (collision.CompareTag("Movable"))
         {
+            audioManager.PlaySFX(audioManager.buttonDoorOpen);
             print("Boton Presionado!!");
             pressed = true;
         }
