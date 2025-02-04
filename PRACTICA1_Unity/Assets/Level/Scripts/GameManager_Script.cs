@@ -15,7 +15,8 @@ public class GameManager_Script : MonoBehaviour
     public GameObject GameUI;
     public GameObject PauseMenu;
     public GameObject SettingsMenu;
-    public static GameManager_Script instance;
+    //public GameObject SettingsMainMenu;
+    //public static GameManager_Script instance;
     private void Awake()
     {
         //si el GameManager no ha ocorregut en cap instancia anterior, aquest script fa que la instància principal sigui aquesta, i si ja hi ha una instància, no assignarà una nova com a instància, sinó que destruirà la nova. això preveu duplicats de la instància.
@@ -35,12 +36,13 @@ public class GameManager_Script : MonoBehaviour
         Time.timeScale = 1.0f;
         PauseMenu.SetActive(false);
         SettingsMenu.SetActive(false);
+        //SettingsMainMenu.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().name == "MAIN MENU" || SceneManager.GetActiveScene().name == "SETTINGS")
+        if (SceneManager.GetActiveScene().name == "MAIN MENU" || SceneManager.GetActiveScene().name == "END_Victory")
         {
             GameUI.SetActive(false);
         }
@@ -65,22 +67,7 @@ public class GameManager_Script : MonoBehaviour
                 }
             }
         }
-
     }
-    /*//funcions per controlar les variables
-    public void AddKey()
-    {
-        numberKeys++;
-    }
-    public void UseKey()
-    {
-        numberKeys--;
-    }
-    public void AddMoney()
-    {
-        int randomMoney = Random.Range(300, 500);
-        amountMoney = amountMoney + randomMoney;
-    }*/
     //funcions del menú de pausa
     public void PauseGame()
     {
@@ -110,23 +97,23 @@ public class GameManager_Script : MonoBehaviour
         SceneManager.LoadScene("MAIN MENU");
     }
     //funcions del menú principal
-    public static void PlayGame()
+    public void PlayGame()
     {
         SceneManager.LoadScene("LEVEL 1");
     }
-    public static void SettingsStartMenu()
+    /*public void SettingsStartMenu()
     {
-        SceneManager.LoadScene("SETTINGS");
+        SettingsMainMenu.SetActive(true);
     }
-    public static void BackToMainMenu()
+    public void BackToMainMenu()
     {
-        SceneManager.LoadScene("MAIN MENU");
-    }
-    public static void WebsiteButton()
+        SettingsMainMenu.SetActive(false);
+    }*/
+    public void WebsiteButton()
     {
         print("GO TO WEBSITEEE");
     }
-    public static void Exit()
+    public void Exit()
     {
         Application.Quit();
     }
