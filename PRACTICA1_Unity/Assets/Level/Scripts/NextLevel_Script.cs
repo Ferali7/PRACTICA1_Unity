@@ -5,10 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel_Script : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameManager_Script GameManager;
+    Animator animator;
+    IEnumerator SceneChanger()
     {
-        
+        animator.SetBool("Transition", true);
+        yield return new WaitForSeconds(2f);
+        loadNextLevel();
+    }
+    void loadNextLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+    // Start is called before the first frame update
+    void Awake()
+    {
+        GameManager = GameObject.FindObjectOfType<GameManager_Script>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -21,8 +35,9 @@ public class NextLevel_Script : MonoBehaviour
         //si el objecte que fa collide amb el trigger de Next Level es el "Player", va al nivell de Index+1
         if (collision.CompareTag("Player"))
         {
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(currentSceneIndex + 1);
+           
+            StartCoroutine(SceneChanger());
+
         }
     }
 }
