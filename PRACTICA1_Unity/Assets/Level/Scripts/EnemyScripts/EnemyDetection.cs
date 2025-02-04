@@ -43,6 +43,7 @@ public class EnemyDetection : MonoBehaviour
             if (InSight && InLight)
             {
                 Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.green);
+                print("Detected!!");
             }
             else
             {
