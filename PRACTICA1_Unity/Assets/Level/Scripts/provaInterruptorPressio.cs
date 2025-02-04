@@ -7,6 +7,8 @@ public class provaInterruptorPressio : MonoBehaviour
 {
     public GameObject Compuerta;
     public bool pressed;
+    public Sprite spriteUnpressed;
+    public Sprite spritePressed;
     AudioManager audioManager;
 
     void Awake()
@@ -19,7 +21,7 @@ public class provaInterruptorPressio : MonoBehaviour
     void Start()
     {
         pressed = false;
-        //hasActivated = false;
+        gameObject.GetComponent<SpriteRenderer>().sprite = spriteUnpressed;
     }
 
     // Update is called once per frame
@@ -28,7 +30,7 @@ public class provaInterruptorPressio : MonoBehaviour
         if (pressed)
         {
             //acció quan es pulsa el botó amb moble
-            //hasActivated = true;
+            gameObject.GetComponent<SpriteRenderer>().sprite = spritePressed;
             Destroy(Compuerta);
         }
     }

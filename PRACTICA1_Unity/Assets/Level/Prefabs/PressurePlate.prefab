@@ -100,6 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Compuerta: {fileID: 0}
   pressed: 0
+  spriteUnpressed: {fileID: 1800275297, guid: 38eb740cb70bad74b9824c0eda1d78e6, type: 3}
+  spritePressed: {fileID: -1224200707, guid: 38eb740cb70bad74b9824c0eda1d78e6, type: 3}
 --- !u!61 &7191021691566557675
 BoxCollider2D:
   m_ObjectHideFlags: 0
