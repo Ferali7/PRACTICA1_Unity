@@ -5,10 +5,13 @@ using UnityEngine.Rendering.Universal;
 
 public class LightScript : MonoBehaviour
 {
+    //script utilitzant el sistema de llums per il·luminar les prestatgeries que són mòbils amb mantenir la tecla E polsada.
     Light2D bookshelfLight;
+    //variables que controlaran si la llum està pujant o baixant
     private bool upIntenisty = true;
     private bool downIntensity = false;
     public float timeFlicker = 1.0f;
+    //variable que controla quant s'il·lumina la prestatgeria
     public float intensityVariation = 3.0f;
 
     IEnumerator TurnOnLight()
