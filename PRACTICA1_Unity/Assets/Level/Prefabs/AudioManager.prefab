@@ -47,14 +47,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e60d3c3aad0bbd48a972658862dc57d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 7435748457496364089}
   sfxSource: {fileID: 8805218582089394965}
+  musicSource: {fileID: 7435748457496364089}
   background: {fileID: 8300000, guid: 22862dac142cace44b5f60b0d4d0c6b6, type: 3}
   caught: {fileID: 8300000, guid: 500a4c7e909de34479f1a021864c8427, type: 3}
   keyCollected: {fileID: 8300000, guid: 8debba431c7353344abcdae184eb5d69, type: 3}
   moneyCollected: {fileID: 8300000, guid: 5d53f4bf94f978b49983288653a99ee3, type: 3}
   keyDoorOpen: {fileID: 0}
   buttonDoorOpen: {fileID: 8300000, guid: 8e7c594369fe3ec42847ef92f7f9e88d, type: 3}
+  mute: 0
 --- !u!82 &3941859433211499404
 AudioSource:
   m_ObjectHideFlags: 0
@@ -67,7 +68,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -195,7 +196,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -323,7 +324,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0

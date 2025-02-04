@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class GameManager_V_Script : MonoBehaviour
 {
     //script que controla totes les variables que no es ressetegen al començar cada nivell, sinó que es mantenen fins al final
@@ -29,13 +31,14 @@ public class GameManager_V_Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
     // Update is called once per frame
     void Update()
     {
+
         currentLevel = SceneManager.GetActiveScene().name;
         UpdateMoney();
+      
     }
     //funcions per controlar el augment de variables
     public void AddKey()

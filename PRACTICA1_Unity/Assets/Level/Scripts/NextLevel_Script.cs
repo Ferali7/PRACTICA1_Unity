@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 public class NextLevel_Script : MonoBehaviour
 {
     public GameManager_Script GameManager;
-    Animator animator;
+
     IEnumerator SceneChanger()
     {
-        animator.SetBool("Transition", true);
+
         yield return new WaitForSeconds(2f);
         loadNextLevel();
     }
@@ -22,7 +22,6 @@ public class NextLevel_Script : MonoBehaviour
     void Awake()
     {
         GameManager = GameObject.FindObjectOfType<GameManager_Script>();
-        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
