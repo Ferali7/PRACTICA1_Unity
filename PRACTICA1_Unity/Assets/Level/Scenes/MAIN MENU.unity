@@ -710,6 +710,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 344543363727069202, guid: 2abed4d2dd75f86439e3d8c5ac2a0c9c, type: 3}
   m_PrefabInstance: {fileID: 784905318}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &784905322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7516170928507943316, guid: 2abed4d2dd75f86439e3d8c5ac2a0c9c, type: 3}
+  m_PrefabInstance: {fileID: 784905318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &792625299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,10 +1635,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3819ba319c73fb148b1176ab23e379c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManagerV: {fileID: 0}
   isPaused: 0
   GameUI: {fileID: 784905321}
   PauseMenu: {fileID: 784905320}
   SettingsMenu: {fileID: 784905319}
+  CaughtMenu: {fileID: 784905322}
+  caught: 0
 --- !u!1001 &1713278550
 PrefabInstance:
   m_ObjectHideFlags: 0

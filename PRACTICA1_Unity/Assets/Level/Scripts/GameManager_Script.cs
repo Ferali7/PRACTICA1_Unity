@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class GameManager_Script : MonoBehaviour
 {
+    public GameManager_V_Script gameManagerV;
     public bool isPaused = false;
     public GameObject GameUI;
     public GameObject PauseMenu;
@@ -15,6 +16,7 @@ public class GameManager_Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManagerV = GameObject.FindObjectOfType<GameManager_V_Script>();
         Time.timeScale = 1.0f;
         PauseMenu.SetActive(false);
         SettingsMenu.SetActive(false);
@@ -36,6 +38,11 @@ public class GameManager_Script : MonoBehaviour
                 Time.timeScale = 1f;
                 int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
                 SceneManager.LoadScene(currentSceneIndex + 1);
+            }
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                Restart();
+                
             }
             GameUI.SetActive(true);
             if (Input.GetKeyDown(KeyCode.Escape))
@@ -84,6 +91,11 @@ public class GameManager_Script : MonoBehaviour
         PauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+        gameManagerV.numberKeys = 0;
+        gameManagerV.amountMoney = 0;
+        gameManagerV.amountMoneyLv1 = 0;
+        gameManagerV.amountMoneyLv2 = 0;
+        gameManagerV.amountMoneyLv3 = 0;
         SceneManager.LoadScene("MAIN MENU");
     }
     //funció del menú Caught
@@ -92,6 +104,18 @@ public class GameManager_Script : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.GetActiveScene();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (gameManagerV.currentLevel == "LEVEL 1")
+        {
+            gameManagerV.amountMoney = 0;
+        }
+        if (gameManagerV.currentLevel == "LEVEL 2")
+        {
+            gameManagerV.amountMoney = gameManagerV.amountMoneyLv1;
+        }
+        if (gameManagerV.currentLevel == "LEVEL 3")
+        {
+            gameManagerV.amountMoney = gameManagerV.amountMoneyLv2;
+        }
     }    
     //funcions del menú principal
     public void PlayGame()

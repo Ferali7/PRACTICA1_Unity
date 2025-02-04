@@ -33,6 +33,7 @@ public class GameManager_V_Script : MonoBehaviour
     void Update()
     {
         currentLevel = SceneManager.GetActiveScene().name;
+        UpdateMoney();
     }
     //funcions per controlar les variables
     public void AddKey()
@@ -47,5 +48,20 @@ public class GameManager_V_Script : MonoBehaviour
     {
         int randomMoney = Random.Range(300, 500);
         amountMoney = amountMoney + randomMoney;
+    }
+    public void UpdateMoney()
+    {
+        if (currentLevel == "LEVEL 1")
+        {
+            amountMoneyLv1 = amountMoney;
+        }
+        if (currentLevel == "LEVEL 2")
+        {
+            amountMoneyLv2 = amountMoney;
+        }
+        if (currentLevel == "LEVEL 3")
+        {
+            amountMoneyLv3 = amountMoney;
+        }
     }
 }
