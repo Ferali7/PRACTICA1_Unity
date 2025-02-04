@@ -7,7 +7,12 @@ public class EnemyDetection : MonoBehaviour
     private GameObject player;
     private bool InSight;
     private bool InLight = false;
+    AudioManager audioManager;
 
+    void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +49,7 @@ public class EnemyDetection : MonoBehaviour
             {
                 Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.green);
                 print("Detected!!");
+                audioManager.PlaySFX(audioManager.caught);
             }
             else
             {

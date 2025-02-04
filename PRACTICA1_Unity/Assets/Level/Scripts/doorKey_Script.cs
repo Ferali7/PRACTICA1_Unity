@@ -6,7 +6,13 @@ public class doorKey_Script : MonoBehaviour
 {
     public GameManager_V_Script gameManagerV;
     public bool collapsed;
+    AudioManager audioManager;
+
     // Start is called before the first frame update
+    void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
         gameManagerV = FindObjectOfType<GameManager_V_Script>();
@@ -24,6 +30,7 @@ public class doorKey_Script : MonoBehaviour
     }
     public void OnInteract()
     {
+        audioManager.PlaySFX(audioManager.buttonDoorOpen);
         Destroy(gameObject);
     }
     public void OnTriggerEnter2D(Collider2D collision)

@@ -6,6 +6,13 @@ public class provaInterruptorPressio : MonoBehaviour
 {
     public GameObject Compuerta;
     public bool pressed;
+    AudioManager audioManager;
+
+    void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     //public bool hasActivated;
     // Start is called before the first frame update
     void Start()
@@ -21,7 +28,7 @@ public class provaInterruptorPressio : MonoBehaviour
         {
             //acció quan es pulsa el botó amb moble
             //hasActivated = true;
-            //play sound???
+            audioManager.PlaySFX(audioManager.buttonDoorOpen);
             Destroy(Compuerta);
         }
     }

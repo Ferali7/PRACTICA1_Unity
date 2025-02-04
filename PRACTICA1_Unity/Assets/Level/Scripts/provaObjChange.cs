@@ -11,7 +11,12 @@ public class provaObjChange : MonoBehaviour
     public Sprite open;
     public Sprite stolen;
     Rigidbody2D rb;
-    // Start is called before the first frame update
+    AudioManager audioManager;
+
+    void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
         gameManagerV = FindObjectOfType<GameManager_V_Script>();
@@ -35,6 +40,7 @@ public class provaObjChange : MonoBehaviour
         if (gameObject.GetComponent<SpriteRenderer>().sprite == open)
         {
             gameManagerV.AddMoney();
+            audioManager.PlaySFX(audioManager.moneyCollected);
             this.gameObject.GetComponent<SpriteRenderer>().sprite = stolen;
             gameObject.tag = "Interacted";
         }

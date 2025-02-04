@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03cfc154d16b82044b3103406acd25f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
+  gameManagerV: {fileID: 0}
   collapsed: 0
 --- !u!95 &-4026753096046803869
 Animator:

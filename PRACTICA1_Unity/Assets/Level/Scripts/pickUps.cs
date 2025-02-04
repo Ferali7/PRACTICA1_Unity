@@ -8,8 +8,12 @@ public class pickUps : MonoBehaviour
     public GameManager_V_Script gameManagerV;
     public int minValue;
     public int maxValue;
+    AudioManager audioManager;
 
-    // Start is called before the first frame update
+    void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
         gameManagerV = FindObjectOfType<GameManager_V_Script>();
@@ -17,6 +21,7 @@ public class pickUps : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         AddMoney();
+        audioManager.PlaySFX(audioManager.moneyCollected);
         Destroy(gameObject);
     }
     // Update is called once per frame

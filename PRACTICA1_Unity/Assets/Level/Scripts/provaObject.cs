@@ -8,7 +8,14 @@ public class provaObject : MonoBehaviour
     public bool collapsed;
     Animator animator;
     Rigidbody2D rb;
-    // Start is called before the first frame update
+    AudioManager audioManager;
+
+    void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
+
     void Start()
     {
         gameManagerV = FindObjectOfType<GameManager_V_Script>();
@@ -27,6 +34,7 @@ public class provaObject : MonoBehaviour
     }
     public void OnInteract()
     {
+        audioManager.PlaySFX(audioManager.keyCollected);
         gameManagerV.AddKey();
         Destroy(gameObject);
     }
