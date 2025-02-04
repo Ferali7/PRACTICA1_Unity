@@ -12,7 +12,7 @@ public class pickUps : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManagerV = FindObjectOfType<GameManager_V_Script>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
