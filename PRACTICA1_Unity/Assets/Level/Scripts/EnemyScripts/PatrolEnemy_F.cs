@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PatrolEnemy_F : MonoBehaviour
 {
+    //En aquest script, indiquem quines animacions ha de seguir l'sprite dels enemics, per tal d'anar d'acord amb el moviment
     public Transform[] _patrolPoint;
     Animator animator;
     public float _moveSpeed;
@@ -27,7 +28,7 @@ public class PatrolEnemy_F : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_destinationPoint == 0)
+        if (_destinationPoint == 0) //funciona de forma semblant a l'altre script de Patrol Enemy, només que aqui en comptes de crear una funció per rotar, fem que canvii l'animació.
         {
             ResetAnimations();
             animator.SetBool("walkingRight", true);

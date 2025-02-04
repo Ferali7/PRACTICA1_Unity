@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class StraightLineEnemy_F : MonoBehaviour
 {
+    //El funcionament es exactament el mateix que el del Patrol Enemy, alla esta millor explicat
+    //Aquest script controla les animacions
     public Transform[] patrolPoint;
     Animator animator;
     public float moveSpeed;
