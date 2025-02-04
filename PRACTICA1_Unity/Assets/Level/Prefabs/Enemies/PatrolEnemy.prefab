@@ -327,20 +327,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 1202680183624773433}
     m_Modifications:
     - target: {fileID: 1220983947271197716, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1220983947271197716, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
+      propertyPath: m_ShapeLightFalloffSize
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1220983947271197716, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
       propertyPath: m_LocalBounds.m_Center.x
-      value: -9.6053
+      value: -9.60525
       objectReference: {fileID: 0}
     - target: {fileID: 1220983947271197716, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
       propertyPath: m_LocalBounds.m_Center.y
-      value: 0.04729998
+      value: 0.047450006
       objectReference: {fileID: 0}
     - target: {fileID: 1220983947271197716, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
       propertyPath: m_LocalBounds.m_Extent.x
-      value: 9.9026
+      value: 9.39265
       objectReference: {fileID: 0}
     - target: {fileID: 1220983947271197716, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
       propertyPath: m_LocalBounds.m_Extent.y
-      value: 1.9732
+      value: 1.46415
       objectReference: {fileID: 0}
     - target: {fileID: 1220983947271197716, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
       propertyPath: m_ShapePath.Array.data[1].x
@@ -492,6 +500,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3210641873519209932, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
   m_PrefabInstance: {fileID: 2337852488714046324}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3494923181567614816 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1220983947271197716, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
+  m_PrefabInstance: {fileID: 2337852488714046324}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4582611964951478833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4582611964951478833 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2299383648403786053, guid: 53dff38ba73366943b5d5bd3f2fa8b82, type: 3}
@@ -509,6 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feadeed26e672b044833e8d157bb318e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myLight: {fileID: 3494923181567614816}
 --- !u!114 &2318853047630928744
 MonoBehaviour:
   m_ObjectHideFlags: 0

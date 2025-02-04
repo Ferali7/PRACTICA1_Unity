@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class provaInterruptorPressio : MonoBehaviour
 {
+
     public GameObject Compuerta;
     public bool pressed;
     public Sprite spriteUnpressed;
