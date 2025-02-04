@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class GameManager_Script : MonoBehaviour
 {
-    AudioSource musicSource;
     public GameManager_V_Script gameManagerV;
     public bool isPaused = false;
     public GameObject GameUI;
@@ -23,7 +22,6 @@ public class GameManager_Script : MonoBehaviour
         SettingsMenu.SetActive(false);
         CaughtMenu.SetActive(false);
         caught = false;
-        musicSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

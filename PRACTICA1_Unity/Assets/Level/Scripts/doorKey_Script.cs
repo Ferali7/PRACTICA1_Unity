@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class doorKey_Script : MonoBehaviour
 {
+    //script que controla el comportament de les portes activades amb clau
+    //referència al script de variables
     public GameManager_V_Script gameManagerV;
     public bool collapsed;
     AudioManager audioManager;
@@ -11,10 +13,12 @@ public class doorKey_Script : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        //trobar audioManager a l'escena
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
     void Start()
     {
+        //trobar gameManager variables a l'escena
         gameManagerV = FindObjectOfType<GameManager_V_Script>();
         collapsed = false;
     }
@@ -22,6 +26,7 @@ public class doorKey_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //si el jugador ha fet collapse (la funció està a sota) i s'apreta la E I TAMBÉ les claus són un número superior a 0, restarem una clau i activarem OnInteract, que destrueix la porta i fa un soroll.
         if (collapsed && Input.GetKeyDown(KeyCode.E) && gameManagerV.numberKeys > 0)
         {
             gameManagerV.numberKeys--;

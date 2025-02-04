@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class StraightLineEnemy : MonoBehaviour
 {
+    //El funcionament es exactament el mateix que el del Patrol Enemy, alla esta millor explicat
+    //Aquest script controla el moviment i el gir de les llums i trigger box
     public Transform[] patrolPoint;
     public float moveSpeed;
     public int destinationPoint;
