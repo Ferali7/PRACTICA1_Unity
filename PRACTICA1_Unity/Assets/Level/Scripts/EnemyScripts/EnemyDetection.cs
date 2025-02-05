@@ -65,7 +65,7 @@ public class EnemyDetection : MonoBehaviour
                 myLight.color = new Color(255, 0, 0, 50f);
                 myLight.falloffIntensity = 0f;
                 myLight.shapeLightFalloffSize = 0f;
-                //GameManager.caught = true;
+                GameManager.caught = true;
                 //StartCoroutine(caughtDelay());
             }
             else
