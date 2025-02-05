@@ -27,12 +27,6 @@ public class EnemyDetection : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player"); //troba al jugador
         GameManager = GameObject.FindObjectOfType<GameManager_Script>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     IEnumerator caughtDelay() //Funció que no fa que sigui inmediata la pantalla de "has perdut", potser podem fer que el joc es pari hi hagi una petita animació abans (?)
     {
         yield return new WaitForSeconds(2.0f);
