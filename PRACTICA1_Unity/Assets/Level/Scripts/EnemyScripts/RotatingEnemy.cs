@@ -5,6 +5,7 @@ using UnityEngine;
 public class RotatingEnemy : MonoBehaviour
 {
     //Script creat per crear enemics que van donant voltes
+    public float intervalSeconds = 2;
     public bool Stop = false;
     public void rotateEnemy() //fem que giri la llum i la trigger box 90 graus cada cop que es crida la funció
     {
@@ -17,7 +18,7 @@ public class RotatingEnemy : MonoBehaviour
         }
         else
         {
-            yield return new WaitForSeconds(2.0f); //li indiquem el temps que volem que faci la volta
+            yield return new WaitForSeconds(intervalSeconds); //li indiquem el temps que volem que faci la volta
             rotateEnemy(); //rota
             StartCoroutine(delay2seconds()); //repeteix el loop
         }   

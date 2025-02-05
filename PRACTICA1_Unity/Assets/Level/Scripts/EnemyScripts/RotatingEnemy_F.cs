@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RotatingEnemy_F : MonoBehaviour
 {
+    public float intervalSeconds = 2;
     //Script per decidir el sprite que ha de reproduir l'enemic que rota, per que vagi d'acord amb la llum i trigger box
     public bool Stop = false;
     [SerializeField] Sprite[] sprites; //Array per ficar els sprites
@@ -15,7 +16,7 @@ public class RotatingEnemy_F : MonoBehaviour
         }
         else
         {
-            yield return new WaitForSeconds(2.0f);
+            yield return new WaitForSeconds(intervalSeconds);
             directionIndex++;
             if (directionIndex == 4)
             {

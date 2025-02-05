@@ -7,7 +7,7 @@ public class NextLevel_Script : MonoBehaviour
 {
     public GameManager_Script GameManager;
     public Animator animator;
-    IEnumerator SceneChanger()
+    IEnumerator SceneChanger() //Fa que hi hagi un petit delay per que carregui l'escena, per tal que l'animació de FadeOut es completi
     {
         FadeToLevel();
         yield return new WaitForSeconds(2f);
@@ -23,16 +23,11 @@ public class NextLevel_Script : MonoBehaviour
     {
         GameManager = GameObject.FindObjectOfType<GameManager_Script>();
     }
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void FadeToLevel()
     {
         animator.SetTrigger("FadeOut");
     }
-    public void OnFadeComplete()
+    public void OnFadeComplete() //Funcio que es crida a l'animator
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
@@ -41,7 +36,6 @@ public class NextLevel_Script : MonoBehaviour
         //si el objecte que fa collide amb el trigger de Next Level es el "Player", va al nivell de Index+1
         if (collision.CompareTag("Player"))
         {
-            //loadNextLevel();
             StartCoroutine(SceneChanger());
             FadeToLevel();
 
