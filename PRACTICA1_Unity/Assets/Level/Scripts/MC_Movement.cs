@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MC_Movement : MonoBehaviour
 {
+    //referenciem el gamemanager perquè controlarà amb el isPaused si podem mourens o no.
     public GameManager_Script gameManager;
     [SerializeField] public float speed = 5f;
     private Vector2 movement;
@@ -32,7 +33,7 @@ public class MC_Movement : MonoBehaviour
     {
         if (gameManager.isPaused == false)
         {
-            //input del jugador
+            //input del jugador, portant un valor horitzontal (positiu si es pulsa fletxa dreta o D, negatiu si es pulsa fletxa esquerra o A) i vertical (el mateix amb fletxa adalt o W i fletxa abaix o S) a les components x i y del vector que hem creat movement, que passa a ser el que composa el vector rb.velocity multiplicat per la velocitat que balancegem al inspector de unity
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
             rb.velocity = new Vector2(movement.x, movement.y) * speed;

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class provaMovable : MonoBehaviour
 {
+    //script per controlar el comportament dels objectes mòbils com les prestatgeries de llibres
     public bool collapsed;
     Rigidbody2D rb;
     // Start is called before the first frame update
@@ -11,12 +12,14 @@ public class provaMovable : MonoBehaviour
     {
         collapsed = false;
         rb = GetComponent<Rigidbody2D>();
+        //Definim el rigidbody de l'objecte inicialment com tipus static (és a dir, immòbil)
         rb.bodyType = RigidbodyType2D.Static;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //en el cas de fer collide amb el jugador i estar rebent input CONTINU de la lletra E, entrarem a interactuar, i sinó, seguirà en static
         if (collapsed && Input.GetKey(KeyCode.E))
         {
             OnInteract();

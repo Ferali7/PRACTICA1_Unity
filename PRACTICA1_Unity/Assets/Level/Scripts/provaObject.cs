@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class provaObject : MonoBehaviour
 {
+    //script que controla les claus de l'escena i com aquestes permeten sumar a la variable Keys
     public GameManager_V_Script gameManagerV;
     public bool collapsed;
     Animator animator;
@@ -18,6 +19,7 @@ public class provaObject : MonoBehaviour
 
     void Start()
     {
+        //trobem el gamemanager_Variables a l'escena
         gameManagerV = FindObjectOfType<GameManager_V_Script>();
         collapsed = false;
         animator = GetComponent<Animator>();
@@ -32,6 +34,7 @@ public class provaObject : MonoBehaviour
             OnInteract();
         }
     }
+    //en interactuar amb la clau, reproduirem un so, afegirem 1 clau a la quantitat total i destruirem el gameObject
     public void OnInteract()
     {
         audioManager.PlaySFX(audioManager.keyCollected);
