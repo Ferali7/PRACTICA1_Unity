@@ -147,6 +147,7 @@ public class GameManager_Script : MonoBehaviour
     public void WebsiteButton()
     {
         print("GO TO WEBSITEEE");
+        Application.OpenURL("https://garciaarcampusemav.wixsite.com/quirky-sprite-studio");
     }
     public void Exit()
     {
